@@ -1,0 +1,33 @@
+{
+    "format":  "BatchPsBundle",
+    "version":  "1.2",
+    "toolVersion":  "1.2.0",
+    "createdAt":  "2026-05-29T00:19:08.5559424+09:00",
+    "createdBy":  "DESKTOP-0OAEVFM\\AKIHIRO",
+    "hostname":  "DESKTOP-0OAEVFM",
+    "sourceRoot":  "C:\\Users\\AKIHIRO\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-rag\\rag_a4_summary",
+    "excludedDirectories":  [
+
+                            ],
+    "dirCount":  1,
+    "directories":  [
+                        {
+                            "id":  1,
+                            "relativePath":  "rag_a4_summary"
+                        }
+                    ],
+    "fileCount":  1,
+    "files":  [
+                  {
+                      "id":  1,
+                      "relativePath":  "rag_a4_summary\\rag_a4_summary.md",
+                      "fileName":  "rag_a4_summary.md",
+                      "extension":  ".md",
+                      "byteLength":  3686,
+                      "sha256":  "0c3cd6033892ddf9729b150ea0f68a4b46d86b4e7101b6e5a64030c56f10b0ad",
+                      "newlineStyle":  "LF",
+                      "bomType":  "None",
+                      "contentBase64":  "IyDmlr3lt6XmiYvpoIZSQUfjga7lm57nrZTlk4Hos6rmlLnlloTjgavplqLjgZnjgovnm7joq4cKCioq55uu55qEKiogIApMTE3llY/jgYTlkIjjgo/jgZvlm57nrZTjgrXjg7zjg5PjgrnjgavjgYrjgYTjgabjgIHnlbDjgarjgovmqZ/nqK7jg7vlnovlvI/jga7mlr3lt6XmiYvpoIbjgYzmt7fjgZbjgaPjgablm57nrZTjgZXjgozjgovjg6rjgrnjgq/jgpLkuIvjgZLjgIHnj77loLTjgaflronlv4PjgZfjgabliKnnlKjjgafjgY3jgovnirbmhYvjgavmlLnlloTjgZnjgovjgZPjgajjgafjgYLjgovjgIIKCiMjIDEuIOePvueKtuOBruaHuOW/tQoKUkFH44Gu5YWD44OH44O844K/44Gr44Gv44CBUERG5b2i5byP44Gu5pa95bel44Oe44OL44Ol44Ki44Or44GM5aSa5pWw55m76Yyy44GV44KM44Gm44GE44KL44CC44GT44KM44KJ44Gv5Zuz44O76KGo44O75rOo6KiY44GM5aSa44GP44CB5ZCM44GY44KI44GG44Gq5L2c5qWt5ZCN44Gn44KC44CB5qmf56iu44O75Z6L5byP44Gr44KI44Gj44Gm5omL6aCG44KE5rOo5oSP54K544GM55Ww44Gq44KL5aC05ZCI44GM44GC44KL44CCCgrjgZ3jga7jgZ/jgoHjgIHliKnnlKjogIXjgYzjgIzjgIfjgIfjga7kvZzmpa3miYvpoIbjgpLmlZnjgYjjgabjgI3jgajos6rllY/jgZfjgZ/pmpvjgIFBSeOBjOWvvuixoeapn+eoruOCkuWNgeWIhuOBq+eJueWumuOBl+OBquOBhOOBvuOBvuOAgemhnuS8vOOBl+OBn+ikh+aVsOODnuODi+ODpeOCouODq+OBruWGheWuueOCkua3t+OBnOOBpuWbnuetlOOBmeOCi+aHuOW/teOBjOOBguOCi+OAggoK44G+44Gf44CB5Yip55So6ICF44Gv5q2j5byP5ZCN56ew44Gg44GR44Gn44Gq44GP44CB54++5aC044Gn44Gu5ZG844Gz5ZCN44CB55Wl56ew44CB55yB55Wl6Kqe44CB6Iux5pWw5a2X44Gu44OP44Kk44OV44Oz5pyJ54Sh44Gq44Gp44CB44GV44G+44GW44G+44Gq6KGo54++44Gn6LOq5ZWP44GZ44KL44CC44GT44Gu6KGo6KiY5o+644KM44Gr44KI44KK44CB5q2j44GX44GE6LOH5paZ44Gr5Yiw6YGU44Gn44GN44Gq44GE44CB44G+44Gf44Gv5Z6L5byP44KS5oyH5a6a44GX44Gm44KC5Zue562U44Gn44GN44Gq44GE44Kx44O844K544GM6LW344GT44KK5b6X44KL44CCCgojIyAyLiDmlLnlloTjgZfjgabjgbvjgZfjgYTmlrnlkJHmgKcKCnwg6Kaz54K5IHwg5pS55ZaE5qGIIHwKfC0tLXwtLS18Cnwg5Zue562U5YmN44Gu56K66KqNIHwg5a++6LGh5qmf56iu44O75Z6L5byP44GM5LiN5piO44Gq5aC05ZCI44CBQUnjgYzmjqjmuKzjgaflm57nrZTjgZvjgZrjgIHjgIzlr77osaHjga7mqZ/nqK7lkI3jgb7jgZ/jga/lnovlvI/jgpLmjIflrprjgZfjgabjgY/jgaDjgZXjgYTjgI3jgajnorroqo3jgZnjgovku5XntYTjgb/jgavjgZnjgovjgIIgfAp8IOaknOe0ouadoeS7tuOBruaVtOWCmSB8IFBERuODnuODi+ODpeOCouODq+OBq+OAgeapn+eoruWQjeOAgeWei+W8j+OAgeOCt+ODquODvOOCuuOAgeS9nOalreWIhumhnuOAgeaWh+abuOWQjeOAgeODmuODvOOCuOOAgeeroOODu+evgOOBquOBqeOBruaknOe0oueUqOaDheWgseOCkuS7mOS4juOBmeOCi+OAgiB8Cnwg6KGo6KiY5o+644KM44G444Gu5a++5b+cIHwg5q2j5byP5ZCN56ew44CB55Wl56ew44CB54++5aC055So6Kqe44CB5pen5ZG856ew44CB44OP44Kk44OV44Oz6YGV44GE44Gq44Gp44KS5ZC45Y+O44GZ44KL6L6e5pu444KE5YCZ6KOc5o+Q56S644Gu5LuV57WE44G/44KS55So5oSP44GZ44KL44CCIHwKfCDmoLnmi6Djga7opovjgYjjgovljJYgfCDlm57nrZTjgavjga/jgIHlj4LnhafjgZfjgZ/mlofmm7jlkI3jgIHlr77osaHmqZ/nqK7jg7vlnovlvI/jgIHjg5rjg7zjgrjjgIHnq6Djg7vnr4DjgpLooajnpLrjgZfjgIHliKnnlKjogIXjgYzmoLnmi6DjgpLnorroqo3jgafjgY3jgovjgojjgYbjgavjgZnjgovjgIIgfAoKIyMgMy4g6ZaL55m66YOo6ZaA44Gr56K66KqN44GX44Gf44GE44GT44GoCgp8IOeiuuiqjemgheebriB8IOeiuuiqjeWGheWuuSB8CnwtLS18LS0tfAp8IOapn+eoruODu+Wei+W8j+OBrue1nuOCiui+vOOBvyB8IOizquWVj+aZguOBq+OAgeapn+eoruODu+Wei+W8j+OCkuaknOe0ouadoeS7tuOBqOOBl+OBpuaJseOBhOOAgeWvvuixoeWkluOBruODnuODi+ODpeOCouODq+OCkumZpOWkluOBp+OBjeOCi+OBi+OAgiB8Cnwg44Oh44K/44OH44O844K/44Gu5LuY5LiOIHwgUERG44Oe44OL44Ol44Ki44Or44KE5qSc57Si5Y2Y5L2N44GU44Go44Gr44CB5qmf56iu5ZCN44CB5Z6L5byP44CB44K344Oq44O844K644CB5L2c5qWt5YiG6aGe44CB5paH5pu45ZCN44CB44Oa44O844K444CB56ug44O756+A44Gq44Gp44Gu44Oh44K/44OH44O844K/44KS5LuY5LiO44Gn44GN44KL44GL44CCIHwKfCBQREbjg7vlm7Pooajlr77lv5wgfCBQREblhoXjga7lm7PjgIHooajjgIHms6joqJjjgIHopovlh7rjgZfjgIHjg5rjg7zjgrjmg4XloLHjgpLmpJzntKLjgoTlm57nrZTmoLnmi6DjgavmtLvnlKjjgafjgY3jgovjgYvjgIIgfAp8IOeiuuiqjeizquWVj+OBruWItuW+oSB8IOWvvuixoeOBjOabluaYp+OBquWgtOWQiOOBq+OAgUFJ44GM5Zue562U44KS5q2i44KB44Gm56K66KqN6LOq5ZWP44KS6L+U44GZ5LuV5qeY44Gr44Gn44GN44KL44GL44CCIHwKfCDooajoqJjmj7rjgozlr77lv5wgfCDnlaXnp7DjgIHnj77loLTnlKjoqp7jgIHnnIHnlaXoqp7jgIHooajoqJjpgZXjgYTjgafjgoLjgIHmraPjgZfjgYTlgJnoo5zjgavoqpjlsI7jgafjgY3jgovjgYvjgIIgfAp8IOaknOe0ouagueaLoOOBrueiuuiqjSB8IOOBqeOBruizh+aWmeOCkuagueaLoOOBq+WbnuetlOOBl+OBn+OBi+OAgeWIqeeUqOmDqOmWgOWBtOOBp+OCgueiuuiqjeOBp+OBjeOCi+OBi+OAgiB8CgojIyA0LiDmnJ/lvoXlirnmnpwKCi0g55Ww44Gq44KL5qmf56iu44O75Z6L5byP44Gu5pa95bel5omL6aCG44GM5re344GW44KL44Oq44K544Kv44KS5L2O5rib44Gn44GN44KL44CCCi0g5Yip55So6ICF44Gu5puW5pin44Gq6LOq5ZWP44Gr5a++44GX44CBQUnjgYzlv4XopoHmnaHku7bjgpLnorroqo3jgZfjgabjgYvjgonlm57nrZTjgafjgY3jgovjgIIKLSDnlaXnp7DjgoTnj77loLTnlKjoqp7jgafjgoLjgIHmraPjgZfjgYTjg57jg4vjg6XjgqLjg6vlgJnoo5zjgavjgZ/jganjgornnYDjgY3jgoTjgZnjgY/jgarjgovjgIIKLSDlm57nrZTmoLnmi6DjgYzmmI7norrjgavjgarjgorjgIHnj77loLTjg7vnrqHnkIbogIXjg7vplovnmbrpg6jploDjgafnorroqo3jgZfjgoTjgZnjgY/jgarjgovjgIIKCiMjIDUuIOebuOirh+OBl+OBn+OBhOe1kOirlgoK6ZaL55m66YOo6ZaA44Gr44Gv44CBUkFH44KS5Y2Y44Gq44KL5paH56ug5qSc57Si44Go44GX44Gm44Gn44Gv44Gq44GP44CBKirjgIzmqZ/nqK7jg7vlnovlvI/jg7vkvZzmpa3lhoXlrrnjgpLnibnlrprjgZfjgZ/kuIrjgafjgIHoqbLlvZPjg57jg4vjg6XjgqLjg6vjga7moLnmi6Djgavln7rjgaXjgYTjgablm57nrZTjgZnjgovku5XntYTjgb/jgI0qKuOBq+aUueWWhOOBp+OBjeOBquOBhOOBi+ebuOirh+OBl+OBn+OBhOOAggoK4oC75pys6LOH5paZ44Gv44CB5LiK5Y+46Kqs5piO44GK44KI44Gz6ZaL55m66YOo6ZaA44G444Gu56K66KqN44O755u46KuH55So44Gu6KaB54K55pW055CG44Gn44GC44KL44CCQTQgMeaemuOBq+WPjuOBvuOCi+WGheWuuemHj+OCkuaDs+WumuOBl+OBpuOBhOOCi+OAggo="
+                  }
+              ]
+}
