@@ -4,39 +4,40 @@
 
 作成者: Codex (gpt-5.6-sol)
 
-2026-09-01のレビュー修正版です。既存の古いバンドルは履歴として保持しています。
+更新日: 2026-09-02
+
+2026-09-02のワンクリック起動・初心者向けREADME修正版です。既存の古いバンドルは履歴として保持しています。
 
 | 用途 | 最新ファイル | 収録数 |
 |---|---|---:|
-| 本体・保守・テスト一式 | [本体バンドル](bundle_260901_ExcelMarkdownLite.txt) | 87 |
-| 初心者向け配布 | [初心者版バンドル](bundle_260901_ExcelMarkdownLite_Beginner_TextOnly.txt) | 34 |
+| 本体・保守・テスト一式 | [本体バンドル](bundle_260902_ExcelMarkdownLite.txt) | 88 |
+| 初心者向け配布 | [初心者版バンドル](bundle_260902_ExcelMarkdownLite_Beginner_TextOnly.txt) | 35 |
 
-対応する本体コミット: 9ace43eaf5e8ac16615bba276a67e875d9f34dbe
+対応する本体コミット: a1efca6b0d63ade9406e94dc3abf30f4cbfa2b3b
 
 ## 復元
 
 Reversible-Script-BundlerのRestore機能で、選んだバンドルを新しいフォルダーへ復元してください。
 
-本体版では、復元先のtools/Restore-OfficeBinaryPayloads.ps1をWindows PowerShell 5.1で実行します。元のOfficeファイル3件と空の.gitkeepをSHA-256検証付きで復元し、コミットされた82ファイル一式が揃います。詳しい手順は同梱のBUNDLE_RESTORE.mdにあります。
+本体版では、復元先の `tools/Restore-OfficeBinaryPayloads.ps1` をWindows PowerShell 5.1で実行します。元のOfficeファイル3件と空の `.gitkeep` をSHA-256検証付きで復元し、コミットされた83ファイル一式が揃います。詳しい手順は同梱の `BUNDLE_RESTORE.md` にあります。
 
-初心者版では、復元先の「マクロ版Excelを作る.bat」でランチャーExcelを復元できます。通常のExcel→Markdown変換はapp/Start-ExcelToMarkdown.ps1から起動できます。Windows版Excelが必要です。
+初心者版では、最初に `README.md` を開いてください。`ExcelからMarkdownへを作る.bat` をダブルクリックすると、デスクトップに **ExcelからMarkdownへ** ショートカットを作成できます。マクロ版Excelは任意で、`マクロ版Excelを作る.bat` から復元できます。利用にはWindows版ExcelとWindows PowerShell 5.1が必要です。
 
 ## 確認結果
 
-- コミット対象のGit blobから87/87・34/34ファイルを復元し、全ファイルのSHA-256が一致。
-- 本体の元82ファイル、初心者版の復元XLSMも元データと一致。
-- 復元後の単体67項目、基本往復6項目がPASS。
-- 本体・初心者版それぞれで追加単体55項目、起動23項目、実Excel36項目がPASS。
-- 復元XLSMを両方ともExcelで再オープンし、シート1枚・ボタン4個と終了処理を確認。
-- 検出対象の秘密情報パターン0件。Git内部、配布ZIP、実行ログ、不要な試験生成物は収録対象外。
-- 元のAllゲート25系列の検証記録は本体バンドルのBUNDLE_VERIFIED_GATE.jsonに収録。実装ファイルはその検証時点と一致します。
+- fresh Release gate 8/8がPASS。通常版の配布受入18/18、初心者版はREADME確認を含む19/19がPASS。
+- 本体bundleのテキスト88件を復元後、Office payload 4件を復元し、コミット済み83/83ファイルのSHA-256が一致。2回目のpayload復元は全件 `PASS_EXISTING`。
+- 復元した本体でWindows PowerShell 5.1の単体67/67がPASS。
+- 初心者版35/35ファイルのSHA-256が配布元と一致。`README.md` とワンクリックBATがあり、旧 `はじめに.md` はありません。
+- 検出対象の秘密情報パターン、`.env`、credential系ファイル、Git内部、生成済みreleaseの混入は0件。
+- gate証跡は本体bundleの `BUNDLE_VERIFIED_GATE.json`、正本83ファイルのhashは `BUNDLE_SOURCE_IDENTITY.json` に収録。
 
-別PC、別Excel版、組織ポリシー、手動の画面操作、100kセル性能再測定は今回の公開検証に含めていません。
+Core suite、別PC、別Excel版、組織ポリシー、実際のファイル選択画面、物理的なCtrl+C、OneDrive同期、100kセル性能再測定は今回の再検証に含めていません。
 
 ## SHA-256
 
-本体: 92B8B8DB6C28DCA4FE05AA81CA53EFDE26EB93C8D3323024E6AC7E92BCAC8926
+本体: 48326E0EFDECCAB0B12BE7C0841759D0C78EE2425F6B0907AA0D009345062BEB
 
-初心者版: ACD9C516F99E25320A1E4C06E231B9C177BA2E1632A186605B94A812B02F509E
+初心者版: 0458138F958C6BC3E62BD2CCBB680F7A57803E565CF3F51ABE5CE385FFB9A97F
 
-上記は共有リポジトリのLF規約を適用した、実際のコミット対象バンドルのハッシュです。Base64内の復元対象ファイルのバイト列は変更していません。
+上記は共有リポジトリのLF規約を適用したbundleのハッシュです。Base64内の復元対象ファイルのバイト列は変更していません。
