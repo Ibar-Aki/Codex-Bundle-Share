@@ -1,43 +1,44 @@
 # ExcelMarkdownLite 最新バンドル
 
 作成日: 2026-09-01 05:36 JST
-
 作成者: Codex (gpt-5.6-sol)
+更新日: 2026-09-05
 
-更新日: 2026-09-02
-
-2026-09-02のワンクリック起動・初心者向けREADME修正版です。既存の古いバンドルは履歴として保持しています。
+多数シートの読取性能・進捗表示・エラー詳細表示と、部分文字装飾・操作メニュー起動準備の修正版です。画像やテキストボックスは省略し、セルの変換を続けます。旧バンドルは履歴として保持しています。
 
 | 用途 | 最新ファイル | 収録数 |
 |---|---|---:|
-| 本体・保守・テスト一式 | [本体バンドル](bundle_260902_ExcelMarkdownLite.txt) | 88 |
-| 初心者向け配布 | [初心者版バンドル](bundle_260902_ExcelMarkdownLite_Beginner_TextOnly.txt) | 35 |
+| 本体・保守・テスト一式 | [本体バンドル](bundle_260905_ExcelMarkdownLite.txt) | 94 |
+| 初心者向け配布 | [初心者版バンドル](bundle_260905_ExcelMarkdownLite_Beginner_TextOnly.txt) | 36 |
 
-対応する本体コミット: a1efca6b0d63ade9406e94dc3abf30f4cbfa2b3b
+対応する本体コミット: 4bd511a29091ea261d445c8c4b47fe19c95b6262
 
 ## 復元
 
-Reversible-Script-BundlerのRestore機能で、選んだバンドルを新しいフォルダーへ復元してください。
+Reversible-Script-BundlerのRestore機能で、新しいフォルダーへ復元してください。
 
-本体版では、復元先の `tools/Restore-OfficeBinaryPayloads.ps1` をWindows PowerShell 5.1で実行します。元のOfficeファイル3件と空の `.gitkeep` をSHA-256検証付きで復元し、コミットされた83ファイル一式が揃います。詳しい手順は同梱の `BUNDLE_RESTORE.md` にあります。
+本体版は、復元先の tools/Restore-OfficeBinaryPayloads.ps1 をWindows PowerShell 5.1で実行すると、Officeファイル3件と空の .gitkeep をSHA-256検証付きで復元します。コミット済み89ファイル一式が揃います。詳細は同梱の BUNDLE_RESTORE.md を参照してください。
 
-初心者版では、最初に `README.md` を開いてください。`ExcelからMarkdownへを作る.bat` をダブルクリックすると、デスクトップに **ExcelからMarkdownへ** ショートカットを作成できます。マクロ版Excelは任意で、`マクロ版Excelを作る.bat` から復元できます。利用にはWindows版ExcelとWindows PowerShell 5.1が必要です。
+初心者版は最初に README.md を開いてください。ExcelからMarkdownへを作る.bat からショートカットを作成できます。マクロ版Excelは任意で、マクロ版Excelを作る.bat から復元できます。Windows版ExcelとWindows PowerShell 5.1が必要です。古いショートカットは旧フォルダーを参照するため、今回の復元先から初回手順を実行してください。
+
+部分的な文字装飾はセル単位の書式へ近似し、該当する場合は警告します。元Excelは上書きしません。
 
 ## 確認結果
 
-- fresh Release gate 8/8がPASS。通常版の配布受入18/18、初心者版はREADME確認を含む19/19がPASS。
-- 本体bundleのテキスト88件を復元後、Office payload 4件を復元し、コミット済み83/83ファイルのSHA-256が一致。2回目のpayload復元は全件 `PASS_EXISTING`。
-- 復元した本体でWindows PowerShell 5.1の単体67/67がPASS。
-- 初心者版35/35ファイルのSHA-256が配布元と一致。`README.md` とワンクリックBATがあり、旧 `はじめに.md` はありません。
-- 検出対象の秘密情報パターン、`.env`、credential系ファイル、Git内部、生成済みreleaseの混入は0件。
-- gate証跡は本体bundleの `BUNDLE_VERIFIED_GATE.json`、正本83ファイルのhashは `BUNDLE_SOURCE_IDENTITY.json` に収録。
+- 固定した最終ソースの全体ゲート: PASS / 40スクリプト。通常版・初心者版の配布受入、起動、修正回帰を含みます。
+- 25シート・画像付き約2MBの試験ブックで変換完了。高速読取と従来読取の全レコードが一致しました。
+- 起動準備の障害注入3件と、文字装飾・均一書式の回帰8件を、本体と両配布版で確認しました。
+- 大量診断の回帰7件も本体と両配布版でPASS。900件のエラーで表示は先頭20件、ログには全件を記録しました。
+- Gitに登録する実際のバンドルを復元し、本体94/94、初心者版36/36ファイルのハッシュが一致しました。
+- Office payload4件を復元し、再実行は4件ともPASS_EXISTING。本体正本89/89ファイルのハッシュ一致、復元ソースの単体67/67件PASSを確認しました。
+- 証跡は BUNDLE_VERIFIED_GATE.json、コミットしたファイルのハッシュは BUNDLE_SOURCE_IDENTITY.json に収録しています。
 
-Core suite、別PC、別Excel版、組織ポリシー、実際のファイル選択画面、物理的なCtrl+C、OneDrive同期、100kセル性能再測定は今回の再検証に含めていません。
+障害が起きた別PC・実際の問題ブック、別Excel版、組織ポリシー、物理的なファイル選択とCtrl+C、OneDrive実同期、32bit Excelは未検証です。Excel内部のCOM応答停止を強制解除する機能はありません。
 
 ## SHA-256
 
-本体: 48326E0EFDECCAB0B12BE7C0841759D0C78EE2425F6B0907AA0D009345062BEB
+本体: 8DC426D39B20487B6424C608E4A5C76A45832A6AFD82857AD355CDAE22134D8E
 
-初心者版: 0458138F958C6BC3E62BD2CCBB680F7A57803E565CF3F51ABE5CE385FFB9A97F
+初心者版: 0C7579C1DD1C5BAF9535561187361E37B6E08DCE7F7D2845AEACF552FC6D6249
 
-上記は共有リポジトリのLF規約を適用したbundleのハッシュです。Base64内の復元対象ファイルのバイト列は変更していません。
+上記はGitへ登録するLF形式のbundleのハッシュです。Base64内の復元対象ファイルのバイト列は変更していません。本体リポジトリにはremoteがなく、本体はローカルでコミットし、ソース全体をこの共有バンドルに収録しています。
