@@ -1,0 +1,169 @@
+{
+  "path": "<source-workspace>\\outputs\\01a0ba03-7ef6-7b70-8526-5c5b8e7fe247\\20260920_出力②改善版\\SA900-01_据付寸法計算_出力②改善版_v3_20260920.xlsx",
+  "sha256": "da883f5b5b1eac0876804a6ee9d36429e3b8883502fc203d175c039320af86fe",
+  "source_sha256": "0ceef5ffcc78ece9de3b74b56bdf58010a05d09efcaeac274d44433eabf144b3",
+  "passed": true,
+  "cases": 100,
+  "independent_oracle_cases": 32,
+  "compared_cells_per_case": 242,
+  "protection_checks": 6,
+  "layout_preserved": true,
+  "db_preserved": true,
+  "normal_open_save_reopen": true,
+  "before": {
+    "formulas": 860,
+    "output2_formulas": 112,
+    "output2_formula_chars": 9039,
+    "output2_functions": {
+      "IF": 251,
+      "OR": 18,
+      "VLOOKUP": 18,
+      "CONCATENATE": 1
+    },
+    "max_depth": 24,
+    "output2_max_depth": 24,
+    "output2_position_depth": 21,
+    "calc_to_output2": [
+      [
+        [
+          "塔内機器_計算用シート",
+          "D32"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D32"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D33"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D33"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "H33"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D34"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D34"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D35"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D35"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D36"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D36"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D37"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D37"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D38"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D38"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D39"
+        ],
+        "塔内機器_出力②!Z16"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D39"
+        ],
+        "塔内機器_出力②!Z16"
+      ]
+    ],
+    "cycles": [],
+    "unresolved": [],
+    "unsupported": []
+  },
+  "after": {
+    "formulas": 864,
+    "output2_formulas": 112,
+    "output2_formula_chars": 4331,
+    "output2_functions": {
+      "IF": 118,
+      "VLOOKUP": 18,
+      "CONCATENATE": 1
+    },
+    "max_depth": 18,
+    "output2_max_depth": 18,
+    "output2_position_depth": 16,
+    "calc_to_output2": [],
+    "cycles": [],
+    "unresolved": [],
+    "unsupported": []
+  },
+  "iphone_performance_measured": false
+}

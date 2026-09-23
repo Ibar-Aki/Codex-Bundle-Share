@@ -1,0 +1,530 @@
+{
+  "path": "<source-workspace>\\outputs\\01a0ba03-7ef6-7b70-8526-5c5b8e7fe247\\20260920_出力②改善版\\SA900-01_据付寸法計算_出力②改善版_v3_20260920.xlsx",
+  "sha256": "da883f5b5b1eac0876804a6ee9d36429e3b8883502fc203d175c039320af86fe",
+  "output_dir": "<source-workspace>\\outputs\\01a0ba03-7ef6-7b70-8526-5c5b8e7fe247\\20260922_第三者レビュー",
+  "cases": [
+    {
+      "name": "baseline",
+      "description": "変更前の基準入力",
+      "edits": []
+    },
+    {
+      "name": "baseline_no_cwt",
+      "description": "基準入力でCwtセフティなしのみ変更",
+      "edits": [
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C7",
+          "value": "Cwtｾﾌﾃｨなし"
+        }
+      ]
+    },
+    {
+      "name": "negative_final_pitch",
+      "description": "横落ちで切上げ後の最終ピッチが負になる境界",
+      "edits": [
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C8",
+          "value": "横落ち"
+        },
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C9",
+          "value": 9277
+        }
+      ]
+    },
+    {
+      "name": "zero_pitch",
+      "description": "開始位置と最終位置が一致する境界",
+      "edits": [
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C8",
+          "value": "横落ち"
+        },
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C9",
+          "value": 9277
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "P20",
+          "value": 20144
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E38",
+          "value": 3744
+        }
+      ]
+    },
+    {
+      "name": "small_positive_pitch",
+      "description": "上記の隣接条件（正の最終ピッチ）",
+      "edits": [
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C8",
+          "value": "横落ち"
+        },
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C9",
+          "value": 9276
+        }
+      ]
+    },
+    {
+      "name": "rejected_before_rounding",
+      "description": "開始より最終位置が低い既存の禁止条件",
+      "edits": [
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C8",
+          "value": "横落ち"
+        },
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C9",
+          "value": 9278
+        }
+      ]
+    },
+    {
+      "name": "governor_below_lowest_fl",
+      "description": "入力は成立するがガバナ位置が最下階FLより低い",
+      "edits": [
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C5",
+          "value": "1-2"
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "B20",
+          "value": 11000
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "P20",
+          "value": 3745
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "B26",
+          "value": 6000
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E42",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E46",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E50",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E54",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E58",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E62",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E66",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N38",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N42",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N46",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N50",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N54",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N58",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N62",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N66",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W38",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W42",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W46",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W50",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W54",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W58",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W62",
+          "value": null
+        }
+      ]
+    },
+    {
+      "name": "governor_below_lowest_fl_not_required",
+      "description": "同条件でCwtセフティなし",
+      "edits": [
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C5",
+          "value": "1-2"
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "B20",
+          "value": 11000
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "P20",
+          "value": 3745
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "B26",
+          "value": 6000
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E42",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E46",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E50",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E54",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E58",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E62",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "E66",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N38",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N42",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N46",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N50",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N54",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N58",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N62",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "N66",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W38",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W42",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W46",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W50",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W54",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W58",
+          "value": null
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "W62",
+          "value": null
+        },
+        {
+          "sheet": "帳票基本入力",
+          "cell": "C7",
+          "value": "Cwtｾﾌﾃｨなし"
+        }
+      ]
+    },
+    {
+      "name": "approval_complete",
+      "description": "推定行の確認情報を入力した状態（試験内のみ）",
+      "edits": [
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "B14",
+          "value": "UA-25TB"
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "P14",
+          "value": 1200
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "P26",
+          "value": "有"
+        },
+        {
+          "sheet": "塔内機器_出力②_DB",
+          "cell": "V23",
+          "value": "REVIEW_ONLY"
+        },
+        {
+          "sheet": "塔内機器_出力②_DB",
+          "cell": "W23",
+          "value": "R1"
+        },
+        {
+          "sheet": "塔内機器_出力②_DB",
+          "cell": "X23",
+          "value": "REVIEW_ONLY"
+        },
+        {
+          "sheet": "塔内機器_出力②_DB",
+          "cell": "Y23",
+          "value": 46287
+        },
+        {
+          "sheet": "塔内機器_出力②_DB",
+          "cell": "Z23",
+          "value": "確認済"
+        }
+      ]
+    },
+    {
+      "name": "approval_data_mutated",
+      "description": "確認記録を残したまま確認対象の部品組合せを変更",
+      "edits": [
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "B14",
+          "value": "UA-25TB"
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "P14",
+          "value": 1200
+        },
+        {
+          "sheet": "塔内機器_入力①",
+          "cell": "P26",
+          "value": "有"
+        },
+        {
+          "sheet": "塔内機器_出力②_DB",
+          "cell": "V23",
+          "value": "REVIEW_ONLY"
+        },
+        {
+          "sheet": "塔内機器_出力②_DB",
+          "cell": "W23",
+          "value": "R1"
+        },
+        {
+          "sheet": "塔内機器_出力②_DB",
+          "cell": "X23",
+          "value": "REVIEW_ONLY"
+        },
+        {
+          "sheet": "塔内機器_出力②_DB",
+          "cell": "Y23",
+          "value": 46287
+        },
+        {
+          "sheet": "塔内機器_出力②_DB",
+          "cell": "Z23",
+          "value": "確認済"
+        },
+        {
+          "sheet": "塔内機器_出力②_DB",
+          "cell": "I1080",
+          "value": "REVIEW_MUTATED"
+        }
+      ]
+    },
+    {
+      "name": "capacity_blocks_without_status",
+      "description": "表示上限の保守変更で出力だけ空欄となる",
+      "edits": [
+        {
+          "sheet": "塔内機器_計算用シート",
+          "cell": "Y40",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "refs": {
+    "塔内機器_計算用シート": [
+      "Y15",
+      "Y16",
+      "Y18",
+      "Y22",
+      "Y23",
+      "Y26",
+      "Y27",
+      "Y28",
+      "Y37",
+      "Y39",
+      "D4",
+      "L5",
+      "D31",
+      "D32",
+      "D33",
+      "H33",
+      "H34",
+      "K45"
+    ],
+    "塔内機器_出力①": [
+      "M19",
+      "E27",
+      "M27",
+      "B90"
+    ],
+    "塔内機器_出力②": [
+      "Z16",
+      "E30",
+      "L30",
+      "E35",
+      "L35",
+      "E40",
+      "L40",
+      "M33",
+      "M38",
+      "B75"
+    ],
+    "塔内機器_出力③": [
+      "J14"
+    ],
+    "塔内機器_出力②_DB": [
+      "AA23",
+      "I1080"
+    ]
+  },
+  "created_at": "2026-09-22T14:49:24.562597+09:00"
+}

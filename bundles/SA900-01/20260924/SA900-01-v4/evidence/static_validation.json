@@ -1,0 +1,95 @@
+{
+  "source_sha256": "da883f5b5b1eac0876804a6ee9d36429e3b8883502fc203d175c039320af86fe",
+  "sha256": "8d634d87e92446c53977173b0fe69d5bb745a33d6b9f8c691f1e6334eb1da4da",
+  "source_unchanged": true,
+  "restored_master_unchanged": true,
+  "before": {
+    "formulas": 864,
+    "output2_formulas": 112,
+    "output2_formula_chars": 4331,
+    "output2_functions": {
+      "IF": 118,
+      "VLOOKUP": 18,
+      "CONCATENATE": 1
+    },
+    "max_depth": 18,
+    "output2_max_depth": 18,
+    "output2_position_depth": 16,
+    "calc_to_output2": [],
+    "calc_to_output1": [
+      [
+        [
+          "塔内機器_計算用シート",
+          "D4"
+        ],
+        "塔内機器_出力①!M19"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D5"
+        ],
+        "塔内機器_出力①!M19"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D6"
+        ],
+        "塔内機器_出力①!M19"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D7"
+        ],
+        "塔内機器_出力①!M19"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D8"
+        ],
+        "塔内機器_出力①!M19"
+      ],
+      [
+        [
+          "塔内機器_計算用シート",
+          "D9"
+        ],
+        "塔内機器_出力①!M19"
+      ]
+    ],
+    "cycles": [],
+    "unresolved": [],
+    "unsupported": []
+  },
+  "after": {
+    "formulas": 875,
+    "output2_formulas": 112,
+    "output2_formula_chars": 4463,
+    "output2_functions": {
+      "IF": 122,
+      "VLOOKUP": 18,
+      "CONCATENATE": 1
+    },
+    "max_depth": 19,
+    "output2_max_depth": 19,
+    "output2_position_depth": 17,
+    "calc_to_output2": [],
+    "calc_to_output1": [],
+    "cycles": [],
+    "unresolved": [],
+    "unsupported": []
+  },
+  "unplanned": [],
+  "plan_mismatches": [],
+  "formula_errors": [],
+  "layout_changes": [],
+  "db_changes": [],
+  "intentional_changes": 92,
+  "output2_capacity": 9,
+  "new_helper_cells_locked": true,
+  "output2_pages_expected": 1,
+  "passed": true
+}

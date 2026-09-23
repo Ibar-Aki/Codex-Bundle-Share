@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "date": "2026-09-24",
+  "workbookSha256": "8d634d87e92446c53977173b0fe69d5bb745a33d6b9f8c691f1e6334eb1da4da",
+  "sourceV3Sha256": "da883f5b5b1eac0876804a6ee9d36429e3b8883502fc203d175c039320af86fe",
+  "package": {
+    "integrity": "PASS",
+    "filesExcludingManifest": 19,
+    "sheets": 14,
+    "acceptanceCases": 115,
+    "localLinksChecked": 23
+  },
+  "textBundle": {
+    "entries": 19,
+    "restore": "PASS",
+    "restoredWorkbookSha256": "8d634d87e92446c53977173b0fe69d5bb745a33d6b9f8c691f1e6334eb1da4da",
+    "rerun": "PASS_EXISTING",
+    "differentExistingWorkbook": "REJECTED_WITHOUT_OVERWRITE",
+    "sha256": "7060ff31da64baf3fb918064a4bef1b9e234fb1fe2344fe0cf7fac64b8870ab8"
+  },
+  "zip": {
+    "entries": 21,
+    "crc": "PASS",
+    "extractedPackageCheck": "PASS",
+    "sha256": "e88e7b42ecd1cfbcc77bf96f66ef101c651059da0be21f0baefbffd14c1f7556"
+  },
+  "notVerified": [
+    "iPhone i-Reporter execution",
+    "manufacturer construction rules",
+    "ExcelOutputSetting restoration"
+  ],
+  "publicationReview": {
+    "targetRepositoryVisibility": "PUBLIC",
+    "workbookMetadataContainsAuthorAndAbsoluteSourcePath": true,
+    "publicationApproved": false
+  }
+}

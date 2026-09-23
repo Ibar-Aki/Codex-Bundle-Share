@@ -1,0 +1,23 @@
+{
+  "runId": "885bb57e9ead4bff9c504d1358969916",
+  "status": "passed",
+  "candidate": "workbook/SA900-01_据付寸法計算_境界条件修正版_v4_20260924.xlsx",
+  "candidateSha256": "8d634d87e92446c53977173b0fe69d5bb745a33d6b9f8c691f1e6334eb1da4da",
+  "sourceSha256": "da883f5b5b1eac0876804a6ee9d36429e3b8883502fc203d175c039320af86fe",
+  "testPlanSha256": "92a0dfb841389e0038fcab12e9c1bd8cc66822a0337dc17660f987e2bdcec169",
+  "finishedAt": "2026-09-24T01:50:55.931024+09:00",
+  "excelVersion": "16.0",
+  "cases": 115,
+  "regressionCases": 100,
+  "adversarialCases": 15,
+  "independentOracleCases": 36,
+  "comparedCellsPerRegressionCase": 242,
+  "protectionChecks": 6,
+  "formulaErrors": 0,
+  "output2Pages": 1,
+  "normalSaveReopen": true,
+  "layoutPreserved": true,
+  "dbPreserved": true,
+  "iphoneTested": false,
+  "manufacturerRulesVerified": false
+}

@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "date": "2026-09-24",
+  "workbookSha256": "8d634d87e92446c53977173b0fe69d5bb745a33d6b9f8c691f1e6334eb1da4da",
+  "files": {
+    "bundle_260924_SA900-01-v4.txt": {
+      "bytes": 737180,
+      "sha256": "7060ff31da64baf3fb918064a4bef1b9e234fb1fe2344fe0cf7fac64b8870ab8"
+    },
+    "DELIVERY_VERIFICATION.json": {
+      "bytes": 1187,
+      "sha256": "f6ace1032882f3c6ae113e20ca6d9bbd46cb0535fdcd14d1df3013f1e94373b1"
+    },
+    "SA900-01-v4/docs/SA900-01_Excel変更実装計画書_v4案_20260922.md": {
+      "bytes": 34884,
+      "sha256": "c3a276a376a95eef82764240d52b4053aeade7eced627cf9802aeb0e2e37bef2"
+    },
+    "SA900-01-v4/docs/SA900-01_v4_修正内容解説書_20260924.md": {
+      "bytes": 7723,
+      "sha256": "12dbd889a24ce780d3e069040459d346a88a79a26936e21d57a2ecd1cd95783b"
+    },
+    "SA900-01-v4/docs/SA900-01_v4_修正書_20260924.md": {
+      "bytes": 10529,
+      "sha256": "9c302b7162843784a88555349012254dd70235863d0a1c5231561943e31986f8"
+    },
+    "SA900-01-v4/evidence/changes.json": {
+      "bytes": 29399,
+      "sha256": "4458ea028fd9b14c8a3c85376474037a5d72e43ae656efff79367894e57d6649"
+    },
+    "SA900-01-v4/evidence/latest_summary.json": {
+      "bytes": 857,
+      "sha256": "9fa76a7615d608d737e958d03ae7333b75270c3a077f3e86d1c167041f94ddc1"
+    },
+    "SA900-01-v4/evidence/native_acceptance.json": {
+      "bytes": 45137,
+      "sha256": "c324fe4b44841ae79ae7cfb79c84df0d0e8f219ed5e03e1436d406e3119663e7"
+    },
+    "SA900-01-v4/evidence/native_finish.json": {
+      "bytes": 277,
+      "sha256": "ff4fdc5d0fbb019ce4d878c941077af8dfea117e085115e1ba436005995fcc99"
+    },
+    "SA900-01-v4/evidence/README.md": {
+      "bytes": 1294,
+      "sha256": "8ac742264311910927b83076bea50f530fbd322f778261c464b08f06aa0c1483"
+    },
+    "SA900-01-v4/evidence/review_probe_plan.json": {
+      "bytes": 12349,
+      "sha256": "38a4c2080d8cac3d3d74227fb68653072ad4530d0cf8a60be24931d0abd8df92"
+    },
+    "SA900-01-v4/evidence/review_probe_results.json": {
+      "bytes": 47301,
+      "sha256": "7dfba009848dfcf42e485ba424c067012ff20f049ff236338a00cfdbecaa2eff"
+    },
+    "SA900-01-v4/evidence/review_summary.json": {
+      "bytes": 3591,
+      "sha256": "a64e1db00e2fc341da6b7d176f579b03246183c7397ba97159342e6faef3e156"
+    },
+    "SA900-01-v4/evidence/static_validation.json": {
+      "bytes": 2096,
+      "sha256": "e68556d57a3f1d2557a25dae2ecdad53de744d0d1d27330cbc5b065b268a5851"
+    },
+    "SA900-01-v4/evidence/v3_latest_summary.json": {
+      "bytes": 3673,
+      "sha256": "5d72650016bce56f6dfbfb46e46c1fb86f3727faaae592e90a17564313c2e1ca"
+    },
+    "SA900-01-v4/evidence/v3_native_acceptance.json": {
+      "bytes": 18115,
+      "sha256": "1034e19266b006762768883db2a5a1f3cb303bbd7466a6286c7c16ccac381f89"
+    },
+    "SA900-01-v4/PACKAGE_MANIFEST.json": {
+      "bytes": 3078,
+      "sha256": "7da9e703ebc366bf0e36edc4142d3fa403e86be5ba224b939bed725ee2694652"
+    },
+    "SA900-01-v4/payload/WorkbookPayload.json": {
+      "bytes": 314549,
+      "sha256": "0dc1c4ac440122206223b5b108867104d4731bff66884bc989139fd84fa281c6"
+    },
+    "SA900-01-v4/README.md": {
+      "bytes": 4396,
+      "sha256": "48180adb6cb41bf8d602c32b3fd3bc85a12060e795cff37d5f1ace9198591b67"
+    },
+    "SA900-01-v4/tools/check_package.py": {
+      "bytes": 5303,
+      "sha256": "f7274ea206b8e302e1e569b91138722d08e8fdff98f88e2b3caf8e879ea1d266"
+    },
+    "SA900-01-v4/tools/restore_workbook.py": {
+      "bytes": 2213,
+      "sha256": "3e0d5c4d24784fb83aee26262256073aa75f1e031f66e3663aa2526fab0968d9"
+    },
+    "SA900-01-v4/workbook/SA900-01_据付寸法計算_境界条件修正版_v4_20260924.xlsx": {
+      "bytes": 235750,
+      "sha256": "8d634d87e92446c53977173b0fe69d5bb745a33d6b9f8c691f1e6334eb1da4da"
+    },
+    "SA900-01_v4_20260924.zip": {
+      "bytes": 749291,
+      "sha256": "e88e7b42ecd1cfbcc77bf96f66ef101c651059da0be21f0baefbffd14c1f7556"
+    }
+  }
+}
