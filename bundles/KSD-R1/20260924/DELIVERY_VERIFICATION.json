@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-24",
+  "status": "PASS",
+  "scope": "Delivery and restoration verification; not production acceptance",
+  "bundle_files": 22,
+  "bundle_sha256": "97c87450623d98bec54cf13223c5cb35f843c935d351f48d7413402221721994",
+  "zip_sha256": "3a9185de16bc1a7d265d4621ea1ccad8c7fb49d268b1ae966e3f38c5e406d8ac",
+  "workbook_sha256": "6afb0ea4fe142210f3f62e29f1718fa9408c95eb9d99e9a61a05b56ec4d50e20",
+  "workbook_formula_changes": 0,
+  "tests": {
+    "native_formula_snapshot": 936,
+    "target_formula_roundtrips": 8,
+    "key_occurrences": 10,
+    "affected_formula_cells": 21,
+    "regression_tests_passed": 6,
+    "powershell_5_1_restore": "PASS",
+    "powershell_7_restore": "PASS",
+    "default_output_directory": "PASS",
+    "restore_conflict_rejected": "PASS",
+    "corrupt_payload_rejected": "PASS",
+    "git_index_delivery_hashes": 25,
+    "git_index_bundle_restore": "PASS",
+    "restored_manifest_files": 22,
+    "zip_expand_archive": "PASS",
+    "zip_tar": "PASS",
+    "text_bundle_credentials_pattern_scan": "NO_MATCH",
+    "excel_16_readonly_recalculation": "PASS",
+    "excel_formula_errors": 0
+  },
+  "designer_iphone_acceptance": "NOT_RUN",
+  "publication": "Separate from this verification; remote authorization and push receipt are not implied."
+}

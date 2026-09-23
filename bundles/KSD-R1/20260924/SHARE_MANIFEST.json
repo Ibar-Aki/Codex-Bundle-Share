@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "files": {
+    "bundle_260924_KSD-R1.txt": {
+      "bytes": 570272,
+      "sha256": "97c87450623d98bec54cf13223c5cb35f843c935d351f48d7413402221721994"
+    },
+    "KSD-R1/.gitattributes": {
+      "bytes": 32,
+      "sha256": "087d22c9b5967d6799b2c5c672967fba237832122fcdb937503e543f0f95b779"
+    },
+    "KSD-R1/AGENTS.md": {
+      "bytes": 943,
+      "sha256": "3be89181dac82a511d94ecc26cf1843c56a42c2f859e3ea016f2a153b9a8093b"
+    },
+    "KSD-R1/docs/レビュー・修正内容.md": {
+      "bytes": 3203,
+      "sha256": "3050906edacb974c6b9d37889ca5410a2cad62cadae040a3a2e9e62ad485c322"
+    },
+    "KSD-R1/docs/回帰試験仕様.md": {
+      "bytes": 9150,
+      "sha256": "fffaacd597b4413ed19a223c4a3b83ea8cef29a0b3c657916902e5211dac1a6c"
+    },
+    "KSD-R1/docs/変更セル仕様.json": {
+      "bytes": 10691,
+      "sha256": "9364f3958eb71bdfaa8e8288503be39a0837f2e7337523ee7e0822f6b4975381"
+    },
+    "KSD-R1/docs/実装計画書.md": {
+      "bytes": 19223,
+      "sha256": "61ac09a1d225ba4f94d8c414ff667f2e8e3b40251c82d392cdfc21df32482235"
+    },
+    "KSD-R1/docs/数式変更一覧.md": {
+      "bytes": 8242,
+      "sha256": "8f3c0e40b523ad2e55fbb16f2c3fa47aff612c40a5315e89637b4bae2ab72718"
+    },
+    "KSD-R1/docs/検証結果.md": {
+      "bytes": 1959,
+      "sha256": "aadd5c435c01ac6f92521a7bc1a78778f8a26975d28e79e7a0f9c89a53b3e736"
+    },
+    "KSD-R1/evidence/delivery-tests.txt": {
+      "bytes": 804,
+      "sha256": "22556384a39ed4c379785734e6895f28f2981fa55b462199210a5f1c212bcfbb"
+    },
+    "KSD-R1/evidence/excel-smoke.json": {
+      "bytes": 279,
+      "sha256": "47fd0106e93d3c954662abaf8dabf0719253ccf133a9ef76c19aee7037fff9a5"
+    },
+    "KSD-R1/evidence/formula_check.json": {
+      "bytes": 432,
+      "sha256": "a883571c943e4793e8a02ba3294809e4034e44368865a14dd3947a914688756c"
+    },
+    "KSD-R1/evidence/independent-review.txt": {
+      "bytes": 573,
+      "sha256": "f1dfe1a42b57349b9be562799917099cc41d36ae4296bf54b24053febf50a711"
+    },
+    "KSD-R1/PACKAGE_MANIFEST.json": {
+      "bytes": 3306,
+      "sha256": "817206a9009c1e707f42bc8dfe8faeb42e2cf1c8a5932472ef79426875f66751"
+    },
+    "KSD-R1/payload/WorkbookPayload.json": {
+      "bytes": 170639,
+      "sha256": "3441b35286cefdf7db443c882f1a172a46da0d4484ab797a0d178c8b8cc1e380"
+    },
+    "KSD-R1/README.md": {
+      "bytes": 4418,
+      "sha256": "637bd108d0a47dded0d95f6cda8b81a43a3a4d8d7c7bf80f5fa115af59096383"
+    },
+    "KSD-R1/reference/affected_cells.json": {
+      "bytes": 1054,
+      "sha256": "459420f28b01c8daf7976f466cf6e187de38cfe3b6cf2f7da596f8754d05a915"
+    },
+    "KSD-R1/reference/formulas.json": {
+      "bytes": 162736,
+      "sha256": "9076479f40da92a51ff4acdec0be41f20ebdb8ef61872888b5ab7b5bdc6fa3a6"
+    },
+    "KSD-R1/reference/source_identity.json": {
+      "bytes": 561,
+      "sha256": "97d372252b2f704503bf6b318e8dba432b0809bd31be8ce22caef7e7ace95065"
+    },
+    "KSD-R1/tools/check_package.py": {
+      "bytes": 10274,
+      "sha256": "591e9ef2de5b3d2415f728b45604d665fd3d3ea32680d6507a6fd9687c955a7c"
+    },
+    "KSD-R1/tools/Restore-Workbook.ps1": {
+      "bytes": 2188,
+      "sha256": "4ee0fe065125b4e567f810c3ad8fa67e707ecbfe85d75832acedb269081f8602"
+    },
+    "KSD-R1/tools/test_delivery.py": {
+      "bytes": 5135,
+      "sha256": "9ba9c5a606e5cffc47a89bc047324f859ab7d1d9220d2ee051b8ed0488f99381"
+    },
+    "KSD-R1/tools/write_manifest.py": {
+      "bytes": 848,
+      "sha256": "d7e44d75d03c1e2981ef8c87b53334dfdfecfc417c89fbfe74c3296cc27bc2af"
+    },
+    "KSD-R1/workbook/KSD-R1_restored.xlsx": {
+      "bytes": 127853,
+      "sha256": "6afb0ea4fe142210f3f62e29f1718fa9408c95eb9d99e9a61a05b56ec4d50e20"
+    },
+    "KSD-R1_review_20260924.zip": {
+      "bytes": 503823,
+      "sha256": "3a9185de16bc1a7d265d4621ea1ccad8c7fb49d268b1ae966e3f38c5e406d8ac"
+    }
+  }
+}

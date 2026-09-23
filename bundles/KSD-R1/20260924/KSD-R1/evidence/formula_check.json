@@ -1,0 +1,14 @@
+{
+  "status": "ASSEMBLY_CHECK_ONLY",
+  "scope": "Delivery integrity and static formulas only",
+  "source_sha256": "6afb0ea4fe142210f3f62e29f1718fa9408c95eb9d99e9a61a05b56ec4d50e20",
+  "workbook_changed": false,
+  "sheets": 14,
+  "formulas": 936,
+  "target_formulas": 8,
+  "key_occurrences": 10,
+  "affected_formulas": 21,
+  "manifest_files_checked": 0,
+  "runtime_comparison": "NOT_RUN",
+  "designer_iphone_acceptance": "NOT_RUN"
+}

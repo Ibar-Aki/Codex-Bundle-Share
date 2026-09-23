@@ -1,0 +1,15 @@
+{
+  "source": "KSD-R1 QR restoration, 2026-09-18",
+  "workbook_sha256": "6afb0ea4fe142210f3f62e29f1718fa9408c95eb9d99e9a61a05b56ec4d50e20",
+  "workbook_bytes": 127853,
+  "original_qr_jsonl_sha256": "7e5fb51b9a29463e9492b1327bb597021005a5aea0be88c02fdb89dfe21560e8",
+  "role": "REFERENCE_RESTORATION_NOT_PRODUCTION_DEFINITION",
+  "sheets": 14,
+  "formulas": 936,
+  "missing_archive_content": [
+    "ExcelOutputSetting",
+    "output3 DB rows above 500",
+    "format-only blank cells and unrecorded objects/settings"
+  ],
+  "formula_changes_in_this_delivery": 0
+}

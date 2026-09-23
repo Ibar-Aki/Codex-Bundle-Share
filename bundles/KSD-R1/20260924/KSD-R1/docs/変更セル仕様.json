@@ -1,0 +1,142 @@
+{
+  "status": "PROPOSAL_ONLY_NO_WORKBOOK_EDITS",
+  "review_source_sha256": "6afb0ea4fe142210f3f62e29f1718fa9408c95eb9d99e9a61a05b56ec4d50e20",
+  "placeholder": "{{SPEC_KEY_REFERENCE}}",
+  "key_formula": "=CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51)",
+  "key_inputs": [
+    {
+      "sheet": "基準芯出し_入力①",
+      "cell": "B19"
+    },
+    {
+      "sheet": "基準芯出し_入力①",
+      "cell": "P19"
+    },
+    {
+      "sheet": "基準芯出し_入力①",
+      "cell": "B27"
+    },
+    {
+      "sheet": "基準芯出し_入力①",
+      "cell": "P27"
+    },
+    {
+      "sheet": "基準芯出し_入力①",
+      "cell": "B35"
+    },
+    {
+      "sheet": "基準芯出し_入力①",
+      "cell": "P35"
+    },
+    {
+      "sheet": "基準芯出し_入力①",
+      "cell": "B43"
+    },
+    {
+      "sheet": "基準芯出し_入力①",
+      "cell": "Q46"
+    },
+    {
+      "sheet": "基準芯出し_入力①",
+      "cell": "P51"
+    }
+  ],
+  "inline_mode": "Replace placeholder with key_formula without its initial =; preserve every source formula verbatim.",
+  "shared_key_mode": "Requires an approved physical cell reference and one new calculation cluster; do not treat a logical identifier as an Excel defined name.",
+  "changes": [
+    {
+      "sheet": "基準芯出し_出力③",
+      "cell": "K45",
+      "before": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,IF(基準芯出し_入力①!B51=\"左袖\",17,16),FALSE),\"\")",
+      "before_sha256": "30262aee5d63715d2c4c0f09400e326134be072ba6a9fc7414d4f01fc0ce9e4a",
+      "shared_key_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,IF(基準芯出し_入力①!B51=\"左袖\",17,16),FALSE),\"\")",
+      "inline_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,IF(基準芯出し_入力①!B51=\"左袖\",17,16),FALSE),\"\")",
+      "occurrences": 1,
+      "inline_expansion_equals_source": true
+    },
+    {
+      "sheet": "基準芯出し_出力③",
+      "cell": "Q45",
+      "before": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,IF(基準芯出し_入力①!B51=\"左袖\",16,17),FALSE),\"\")",
+      "before_sha256": "f5613f641f43353b4b047f07830ff0dd0f9fedfb7a15e0782c16a6fc7e341e4a",
+      "shared_key_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,IF(基準芯出し_入力①!B51=\"左袖\",16,17),FALSE),\"\")",
+      "inline_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,IF(基準芯出し_入力①!B51=\"左袖\",16,17),FALSE),\"\")",
+      "occurrences": 1,
+      "inline_expansion_equals_source": true
+    },
+    {
+      "sheet": "基準芯出し_出力③",
+      "cell": "W45",
+      "before": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,18,FALSE),\"\")",
+      "before_sha256": "06630e8bf67e71b08880e49023dac8382d5da7984565025f759c07fe06ac7c76",
+      "shared_key_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,18,FALSE),\"\")",
+      "inline_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,18,FALSE),\"\")",
+      "occurrences": 1,
+      "inline_expansion_equals_source": true
+    },
+    {
+      "sheet": "基準芯出し_出力③",
+      "cell": "C57",
+      "before": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,11,FALSE)/2,\"\")",
+      "before_sha256": "152dc34b5672a464ee957b7bd550f5d1796f18017d8903064817e339ed966bc9",
+      "shared_key_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,11,FALSE)/2,\"\")",
+      "inline_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,11,FALSE)/2,\"\")",
+      "occurrences": 1,
+      "inline_expansion_equals_source": true
+    },
+    {
+      "sheet": "基準芯出し_出力③",
+      "cell": "D57",
+      "before": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,19,FALSE)*IF(K42=\"W1\",1,-1),\"\")",
+      "before_sha256": "0ed8b691c74a6730d1f03416e5e638944a7460174fa4514a4316aa61d385b706",
+      "shared_key_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,19,FALSE)*IF(K42=\"W1\",1,-1),\"\")",
+      "inline_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,19,FALSE)*IF(K42=\"W1\",1,-1),\"\")",
+      "occurrences": 1,
+      "inline_expansion_equals_source": true
+    },
+    {
+      "sheet": "基準芯出し_出力③",
+      "cell": "E57",
+      "before": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,19,FALSE)*IF(Q42=\"W1\",1,-1),\"\")",
+      "before_sha256": "044cfb0318783ac8240a0af4b54b6eb96179e4d8953baf3d4f1d8cb570f41711",
+      "shared_key_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,19,FALSE)*IF(Q42=\"W1\",1,-1),\"\")",
+      "inline_template": "=IFERROR(VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,19,FALSE)*IF(Q42=\"W1\",1,-1),\"\")",
+      "occurrences": 1,
+      "inline_expansion_equals_source": true
+    },
+    {
+      "sheet": "基準芯出し_出力③",
+      "cell": "W49",
+      "before": "=IFERROR(基準芯出し_出力③!X48-VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,12,FALSE)-VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:U1693,20,FALSE)-基準芯出し_出力①!U8-15,\"\")",
+      "before_sha256": "759596ec53a6ef083bb71543a0d3aea09fcca4270c2c69e248c019a6f644b8dd",
+      "shared_key_template": "=IFERROR(基準芯出し_出力③!X48-VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,12,FALSE)-VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:U1693,20,FALSE)-基準芯出し_出力①!U8-15,\"\")",
+      "inline_template": "=IFERROR(基準芯出し_出力③!X48-VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,12,FALSE)-VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:U1693,20,FALSE)-基準芯出し_出力①!U8-15,\"\")",
+      "occurrences": 2,
+      "inline_expansion_equals_source": true
+    },
+    {
+      "sheet": "基準芯出し_出力③",
+      "cell": "W62",
+      "before": "=IFERROR(基準芯出し_出力③!X61-VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,12,FALSE)-VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:U1693,20,FALSE)-基準芯出し_出力①!U8-15,\"\")",
+      "before_sha256": "723bbed99623da1511147c3f0b784a068e6120ad454e3cc8b8cea17a6fd2adcd",
+      "shared_key_template": "=IFERROR(基準芯出し_出力③!X61-VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,12,FALSE)-VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:U1693,20,FALSE)-基準芯出し_出力①!U8-15,\"\")",
+      "inline_template": "=IFERROR(基準芯出し_出力③!X61-VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:T1693,12,FALSE)-VLOOKUP({{SPEC_KEY_REFERENCE}},基準芯出し_出力③_DB!B4:U1693,20,FALSE)-基準芯出し_出力①!U8-15,\"\")",
+      "occurrences": 2,
+      "inline_expansion_equals_source": true
+    }
+  ],
+  "count": {
+    "target_cells": 8,
+    "duplicate_key_occurrences": 10,
+    "vlookups_before": 10,
+    "vlookups_after_shared_key": 10,
+    "source_total_characters": 2036,
+    "shared_key_body_characters": 138
+  },
+  "created_at": "2026-09-20T22:15:00+09:00",
+  "author": "Codex (GPT-6)",
+  "source_formula_authority": "Read-only extraction directly from SHA-verified KSD-R1_restored.xlsx; production formulas must match before application.",
+  "physical_binding": null,
+  "executable_as_is": false,
+  "updated_at": "2026-09-24"
+}

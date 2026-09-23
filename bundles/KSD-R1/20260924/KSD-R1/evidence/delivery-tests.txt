@@ -1,0 +1,11 @@
+test_changed_workbook_is_rejected (__main__.DeliveryTests.test_changed_workbook_is_rejected) ... ok
+test_formula_and_dependency_evidence (__main__.DeliveryTests.test_formula_and_dependency_evidence) ... ok
+test_native_powershell_restore_idempotence_conflict_and_corruption (__main__.DeliveryTests.test_native_powershell_restore_idempotence_conflict_and_corruption) ... ok
+test_readme_default_restore_directory (__main__.DeliveryTests.test_readme_default_restore_directory) ... ok
+test_wrong_dependency_with_same_count_is_rejected (__main__.DeliveryTests.test_wrong_dependency_with_same_count_is_rejected) ... ok
+test_wrong_formula_is_rejected (__main__.DeliveryTests.test_wrong_formula_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 5.804s
+
+OK

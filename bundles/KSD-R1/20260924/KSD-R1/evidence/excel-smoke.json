@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "Read-only native Excel open and full recalculation of byte-identical restored workbook",
+  "excel_version": "16.0",
+  "sheets": 14,
+  "formulas": 936,
+  "formula_errors": 0,
+  "save_performed": false,
+  "designer_iphone_acceptance": "NOT_RUN"
+}

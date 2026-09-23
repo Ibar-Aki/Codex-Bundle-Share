@@ -1,0 +1,4 @@
+2026-09-24 / codex review --uncommitted / exit 0
+対象変更に、修正が必要な具体的な不具合は見つかりませんでした。配布検証と回帰試験5件が成功し、別実装による936数式・依存先21セルの照合も一致しました。Designer／iPhone受入とbundle往復は未検証です。
+
+Subsequent end-to-end bundle test found the PowerShell 5.1 default-path issue. It was fixed and a sixth regression test was added; 6/6 passed. Final bundle and Git-object checks are recorded outside this package to avoid circular self-hashing.

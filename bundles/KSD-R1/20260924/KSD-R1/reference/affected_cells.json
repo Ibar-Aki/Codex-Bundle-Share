@@ -1,0 +1,30 @@
+{
+  "source": "verified formula snapshot",
+  "changed_cells": [
+    "基準芯出し_出力③!C57",
+    "基準芯出し_出力③!D57",
+    "基準芯出し_出力③!E57",
+    "基準芯出し_出力③!K45",
+    "基準芯出し_出力③!Q45",
+    "基準芯出し_出力③!W45",
+    "基準芯出し_出力③!W49",
+    "基準芯出し_出力③!W62"
+  ],
+  "transitive_dependents": [
+    "基準芯出し_出力③!K49",
+    "基準芯出し_出力③!Q49",
+    "基準芯出し_出力③!K53",
+    "基準芯出し_出力③!Q53",
+    "基準芯出し_出力③!W53",
+    "基準芯出し_出力③!K58",
+    "基準芯出し_出力③!Q58",
+    "基準芯出し_出力③!W58",
+    "基準芯出し_出力③!K62",
+    "基準芯出し_出力③!Q62",
+    "基準芯出し_出力③!K66",
+    "基準芯出し_出力③!Q66",
+    "基準芯出し_出力③!W66"
+  ],
+  "affected_formula_cell_count": 21,
+  "scope": "Excel formula references only; iReporter cluster actions/network/copy/export links require production definition inspection."
+}
