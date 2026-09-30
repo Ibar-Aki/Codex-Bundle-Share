@@ -1,0 +1,51 @@
+{
+  "created_date_jst": "2026-10-01",
+  "created_by": "Codex (GPT-6)",
+  "scope": "Read-only workbook identity and saved-formula counts; no timing, recalculation or i-Reporter test",
+  "sources": [
+    {
+      "version": "master",
+      "file_name": "SA900-01_据付寸法自動計算ツール_復元マスター_20260920.xlsx",
+      "expected": {
+        "sha256": "5e1a73aff8518a9557429d17522bef909edaa292a8ce2e99787d135cc225c629",
+        "formula_cells": 1589,
+        "vlookup_occurrences": 149,
+        "floor_lookup_occurrences": 46,
+        "part_db_formula_cells": 1014,
+        "calculation_sheet_formula_cells": 303,
+        "function_kinds": 12
+      }
+    },
+    {
+      "version": "v1",
+      "file_name": "SA900-01_据付寸法自動計算ツール_推定補完版_v1_20260920.xlsx",
+      "expected": {
+        "sha256": "16fc22eaec879866dcd04e01a9db1ecf0512ee37f2511a860706c6ab2ab717bf",
+        "formula_cells": 2852,
+        "vlookup_occurrences": 204,
+        "floor_lookup_occurrences": 48,
+        "part_db_formula_cells": 2260,
+        "calculation_sheet_formula_cells": 303,
+        "function_kinds": 15
+      }
+    },
+    {
+      "version": "v4",
+      "file_name": "SA900-01_据付寸法計算_境界条件修正版_v4_20260924.xlsx",
+      "expected": {
+        "sha256": "8d634d87e92446c53977173b0fe69d5bb745a33d6b9f8c691f1e6334eb1da4da",
+        "formula_cells": 875,
+        "vlookup_occurrences": 179,
+        "floor_lookup_occurrences": 24,
+        "part_db_formula_cells": 20,
+        "calculation_sheet_formula_cells": 589,
+        "function_kinds": 15
+      }
+    }
+  ],
+  "occurrence_metric": "VLOOKUP calls written in formulas; not measured execution count",
+  "floor_metric": "24 floor-label display slots plus Z45:Z68 helper lookups",
+  "device_timing_measured": false,
+  "designer_import_verified": false,
+  "one_argument_concatenate_verified": false
+}

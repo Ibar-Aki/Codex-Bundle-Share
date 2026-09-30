@@ -1,0 +1,26 @@
+{
+  "created_date_jst": "2026-10-01",
+  "created_by": "Codex (GPT-6)",
+  "status": "PASS",
+  "bundle_files": 5,
+  "restored_files_byte_equal": 5,
+  "manifest_files_verified": 4,
+  "local_links_checked": 8,
+  "workbooks_sha_and_counts": "PASS (master, v1, v4)",
+  "restored_verifier_success": "PASS",
+  "missing_source_rejected": true,
+  "modified_workbook_sha_rejected": true,
+  "excel_modified": false,
+  "iReporter_device_tested": false,
+  "timing_measured": false,
+  "bundle": {
+    "file_name": "bundle_261001_SA900-01-formula-guide.txt",
+    "sha256": "a1dfd6dab3914f870f5c5cccacf030d1e397022fadef88b118ed030004394fd3"
+  },
+  "publication": {
+    "repository": "Ibar-Aki/Codex-Bundle-Share",
+    "branch": "codex/sa900-01-v4-bundle-20260924",
+    "authorized_by": "User request to store and push this instruction bundle"
+  },
+  "git_line_endings": "LF; committed content hashes checked"
+}
