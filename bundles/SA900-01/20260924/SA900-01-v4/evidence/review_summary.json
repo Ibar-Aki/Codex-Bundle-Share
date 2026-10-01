@@ -1,0 +1,109 @@
+{
+  "review_complete": true,
+  "workbook_modified": false,
+  "native_review_cases": 11,
+  "mathematical_condition_examples": 1424,
+  "mathematical_condition_verified": true,
+  "proposed_excel_formulas_implemented": false,
+  "missing_document_links": [],
+  "document_characters": 14652,
+  "files": [
+    {
+      "path": "outputs\\01a0ba03-7ef6-7b70-8526-5c5b8e7fe247\\20260920_出力②改善版\\SA900-01_据付寸法計算_出力②改善版_v3_20260920.xlsx",
+      "sha256": "da883f5b5b1eac0876804a6ee9d36429e3b8883502fc203d175c039320af86fe"
+    },
+    {
+      "path": "outputs\\01a0ba03-7ef6-7b70-8526-5c5b8e7fe247\\20260920_推定補完\\SA900-01_据付寸法自動計算ツール_復元マスター_20260920.xlsx",
+      "sha256": "5e1a73aff8518a9557429d17522bef909edaa292a8ce2e99787d135cc225c629"
+    },
+    {
+      "path": "outputs\\01a0ba03-7ef6-7b70-8526-5c5b8e7fe247\\20260920_iReporter修正版\\SA900-01_据付寸法計算_iReporter向け修正版_v2_20260920.xlsx",
+      "sha256": "0ceef5ffcc78ece9de3b74b56bdf58010a05d09efcaeac274d44433eabf144b3"
+    }
+  ],
+  "observations": [
+    {
+      "name": "baseline",
+      "formula_error_counts": {},
+      "output2_last_gap": 5398.5,
+      "output2_ready": 1.0,
+      "status": "参照範囲内（設計妥当性は要照合）"
+    },
+    {
+      "name": "baseline_no_cwt",
+      "formula_error_counts": {
+        "塔内機器_計算用シート": 6
+      },
+      "output2_last_gap": 5398.5,
+      "output2_ready": 1.0,
+      "status": "参照範囲内（設計妥当性は要照合）"
+    },
+    {
+      "name": "negative_final_pitch",
+      "formula_error_counts": {},
+      "output2_last_gap": -0.5,
+      "output2_ready": 1.0,
+      "status": "参照範囲内（設計妥当性は要照合）"
+    },
+    {
+      "name": "zero_pitch",
+      "formula_error_counts": {},
+      "output2_last_gap": 0.0,
+      "output2_ready": 1.0,
+      "status": "参照範囲内（設計妥当性は要照合）"
+    },
+    {
+      "name": "small_positive_pitch",
+      "formula_error_counts": {},
+      "output2_last_gap": 0.5,
+      "output2_ready": 1.0,
+      "status": "参照範囲内（設計妥当性は要照合）"
+    },
+    {
+      "name": "rejected_before_rounding",
+      "formula_error_counts": {},
+      "output2_last_gap": "",
+      "output2_ready": 0.0,
+      "status": "要確認：最上部取付位置が配置可能範囲外"
+    },
+    {
+      "name": "governor_below_lowest_fl",
+      "formula_error_counts": {
+        "塔内機器_出力①": 2
+      },
+      "output2_last_gap": "",
+      "output2_ready": 1.0,
+      "status": "参照範囲内（設計妥当性は要照合）"
+    },
+    {
+      "name": "governor_below_lowest_fl_not_required",
+      "formula_error_counts": {
+        "塔内機器_計算用シート": 6
+      },
+      "output2_last_gap": "",
+      "output2_ready": 1.0,
+      "status": "参照範囲内（設計妥当性は要照合）"
+    },
+    {
+      "name": "approval_complete",
+      "formula_error_counts": {},
+      "output2_last_gap": 5398.5,
+      "output2_ready": 1.0,
+      "status": "参照範囲内（設計妥当性は要照合）"
+    },
+    {
+      "name": "approval_data_mutated",
+      "formula_error_counts": {},
+      "output2_last_gap": 5398.5,
+      "output2_ready": 1.0,
+      "status": "参照範囲内（設計妥当性は要照合）"
+    },
+    {
+      "name": "capacity_blocks_without_status",
+      "formula_error_counts": {},
+      "output2_last_gap": "",
+      "output2_ready": 0.0,
+      "status": "参照範囲内（設計妥当性は要照合）"
+    }
+  ]
+}

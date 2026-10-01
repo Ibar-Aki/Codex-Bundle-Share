@@ -1,0 +1,835 @@
+{
+  "comparedCellsPerCase": 242,
+  "targetUnchanged": true,
+  "targetSha256": "DA883F5B5B1EAC0876804A6EE9D36429E3B8883502FC203D175C039320AF86FE",
+  "sourceUnchanged": true,
+  "cases": [
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "baseline",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "unknown_floor",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "blank_floor",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "fewer_floors_stale",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "negative_pit",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "zero_travel",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "blank_total",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "blank_pit",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "low_total",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "travel_mismatch",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "height_fraction",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "negative_height",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "text_height",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "numeric_text_height",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "missing_height",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "unknown_model",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "unknown_op",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "unknown_smoke",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "extra_height",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "stale_top_height",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "total_over_db",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "total_fraction",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "text_total",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "negative_control",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "blank_control",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "text_control",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "unknown_tail",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "unknown_cwt",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "blank_original_model",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "unknown_original_model",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_101",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_102",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_103",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_104",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_105",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_106",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_107",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_108",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_109",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_110",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_111",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_112",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_113",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_114",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_115",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_116",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_117",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_118",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_119",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "group_120",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "floor_db_append_532",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "floor_db_append_last_937",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "duplicate_floor_key",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "floor_db_hole",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "floor_db_duplicate_label",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "all_24_floors",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "fewer_floors_corrected",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "integer_upper_boundary",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "over_part_height",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "last_total_boundary",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "horizontal_invalid_placement",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "inferred_approval_complete_simulation",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "inferred_approval_missing_1",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "inferred_approval_missing_2",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "inferred_approval_missing_3",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "inferred_approval_missing_4",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "inferred_approval_missing_5",
+      "differences": []
+    },
+    {
+      "independentOracle": false,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "inferred_approval_bad_date",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_15000",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_15001",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_25000",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_25001",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_40000",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_40001",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_50000",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_50001",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_60000",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_60001",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_70000",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_70001",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_80000",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_80001",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_total_90000",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_travel_40000",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_travel_40001",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_travel_80000",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_travel_80001",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_後落ち_P-6",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_後落ち_P-9",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_後落ち_P-11",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_後落ち_P-13",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_後落ち_P-15",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_横落ち_P-6",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_横落ち_P-9",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_横落ち_P-11",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_横落ち_P-13",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_横落ち_P-15",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_floor_boundary_-1",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_floor_boundary_0",
+      "differences": []
+    },
+    {
+      "independentOracle": true,
+      "mismatches": [],
+      "errorCounts": {},
+      "pass": true,
+      "name": "output2_floor_boundary_1",
+      "differences": []
+    }
+  ],
+  "sourceSha256": "0CEEF5FFCC78ECE9DE3B74B56BDF58010A05D09EFCAEAC274D44433EABF144B3",
+  "checks": [
+    {
+      "name": "protected_sheets",
+      "pass": true
+    },
+    {
+      "name": "protected_structure",
+      "pass": true
+    },
+    {
+      "name": "formula_locked",
+      "pass": true
+    },
+    {
+      "name": "input_unlocked",
+      "pass": true
+    },
+    {
+      "name": "job_fields_unlocked",
+      "pass": true
+    },
+    {
+      "name": "floor_validation_stop",
+      "pass": true
+    }
+  ]
+}

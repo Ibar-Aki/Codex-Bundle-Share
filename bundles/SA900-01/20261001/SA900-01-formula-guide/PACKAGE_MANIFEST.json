@@ -1,0 +1,26 @@
+{
+  "created_date_jst": "2026-10-01",
+  "created_by": "Codex (GPT-6)",
+  "files": [
+    {
+      "relative_path": "formula_comparison.json",
+      "bytes": 1894,
+      "sha256": "c9b6702194d218871a76c56b2ea4db4439fbbc6a9584928e20d9fb4aa207e19a"
+    },
+    {
+      "relative_path": "README.md",
+      "bytes": 3000,
+      "sha256": "64142c627f9dd006c05b5ada69e08c69cfa7f389798e771c391d059afa22577e"
+    },
+    {
+      "relative_path": "SA900-01_数式計算と軽量化の指示書_20261001.md",
+      "bytes": 10055,
+      "sha256": "9aad9acba47efc3aa0cd223d78fc44e5b60dc59fb3baeb4fc825ac3083b9fbf4"
+    },
+    {
+      "relative_path": "verify_formula_comparison.py",
+      "bytes": 4773,
+      "sha256": "6e06f4c4e55f1a74edf022bd186f6203b7095ce9296866a98142a3b5216423bc"
+    }
+  ]
+}
