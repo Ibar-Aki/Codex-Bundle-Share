@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "package_name": "KSD-R1-LLM-Guide",
+  "document_version": "1.0",
+  "created_at_jst": "2026-10-02 00:10 JST",
+  "scope": "Consolidated documentation and unfilled evaluation templates only",
+  "reference_workbook_sha256": "6afb0ea4fe142210f3f62e29f1718fa9408c95eb9d99e9a61a05b56ec4d50e20",
+  "reference_workbook_included": false,
+  "candidate_acceptance_status": "NOT_RUN",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 80,
+      "sha256": "b5f0142d97c36a1d72391cd626f6143b5517901aca6af1a635ac171224ec740a"
+    },
+    {
+      "path": "EVALUATION_PROTOCOL.md",
+      "size_bytes": 17244,
+      "sha256": "c1b8b6a139d96d8d5599b71ccfc11c2782444d30ab366cace67e40d59c318265"
+    },
+    {
+      "path": "LLM_IMPLEMENTATION_GUIDE.md",
+      "size_bytes": 22457,
+      "sha256": "e76205f612a0e2368d2d6e82403ace01106a79415b62adf5c996ad085b630b66"
+    },
+    {
+      "path": "LLM_IMPLEMENTATION_GUIDE.txt",
+      "size_bytes": 22457,
+      "sha256": "e76205f612a0e2368d2d6e82403ace01106a79415b62adf5c996ad085b630b66"
+    },
+    {
+      "path": "LLM_TASK_PROMPT.txt",
+      "size_bytes": 3557,
+      "sha256": "ff64ee5635d3ea70d681027112994ed4ab258d158c961368a1bbc55191c6f2b5"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3105,
+      "sha256": "54d197416c3c68a18162d1c5db6c43e94445736703feee264a01987b92389cf3"
+    },
+    {
+      "path": "reference/anchors.json",
+      "size_bytes": 11334,
+      "sha256": "4d746fc86194ee0b5d613a34235892635b04aa44c2b9cbba30593b8e2045f23d"
+    },
+    {
+      "path": "reference/formulas.json",
+      "size_bytes": 162736,
+      "sha256": "9076479f40da92a51ff4acdec0be41f20ebdb8ef61872888b5ab7b5bdc6fa3a6"
+    },
+    {
+      "path": "reference/source_context.json",
+      "size_bytes": 3267,
+      "sha256": "643c433f0bd3fb2154493f7dfc215bd0374fae951024b33f3ddca5b987a2a2ed"
+    },
+    {
+      "path": "TEMPLATE_REFERENCE.md",
+      "size_bytes": 6672,
+      "sha256": "3ee387c793a2a64b1b1665c4afa6c7e207a297535b1b3445b16ac29f33c2e81d"
+    },
+    {
+      "path": "templates/bindings.json",
+      "size_bytes": 10322,
+      "sha256": "93fae7a6f104e91cec67944d909ad7fa581ccc35696b4433478bdea80fa98acb"
+    },
+    {
+      "path": "templates/change_plan.json",
+      "size_bytes": 900,
+      "sha256": "319663c43bfeb968bfbea7f7e5e18d47bd82b45b0063dae87f03074f0d16aa83"
+    },
+    {
+      "path": "templates/evaluation_summary.json",
+      "size_bytes": 4255,
+      "sha256": "320e166f54c5f146f2d679d49ba8fbf8fe4ef78be06cc226be2c153b8aa3b598"
+    },
+    {
+      "path": "templates/functional_results.csv",
+      "size_bytes": 132,
+      "sha256": "38ba32d2cfe0e18bb0c25a9314534744b98add4255eb65cbdf9de501f019bd25"
+    },
+    {
+      "path": "templates/performance_measurements.csv",
+      "size_bytes": 289,
+      "sha256": "3469b26d9cb8db5fa81521506bfe5f576e4967c8055ac666fd7a5aea0382303d"
+    },
+    {
+      "path": "templates/regression_cases.csv",
+      "size_bytes": 2306,
+      "sha256": "2d5bc370b759d7b725833ed32facc204256ebfb9f5be46b144e3b52981f9edf6"
+    },
+    {
+      "path": "templates/source_manifest.json",
+      "size_bytes": 1743,
+      "sha256": "c4c36798c426d07dd5c38f72d09a3d107eb084c796f47d2f5855fa998486d55c"
+    },
+    {
+      "path": "tools/check_guide.py",
+      "size_bytes": 5645,
+      "sha256": "e5b9fc98690f86d015e0fa86dc840db919423fd5d67603f8ac00a84c18ef4076"
+    }
+  ]
+}

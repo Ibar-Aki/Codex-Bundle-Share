@@ -1,0 +1,1 @@
+scenario_id,case_id,session_id,pair_id,variant,order_in_pair,position_in_pair,initial_state_ref,input_sequence_ref,definition_revision,environment_ref,t0_timestamp,t1_timestamp,t0_frame,t1_frame,fps,elapsed_seconds,measurement_status,result_status,evidence_ref,exclusion_or_missing_reason

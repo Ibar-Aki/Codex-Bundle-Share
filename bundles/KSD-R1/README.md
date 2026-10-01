@@ -2,8 +2,19 @@
 
 作成日: 2026-09-24 02:00 JST
 作成者: Codex (GPT-6)
+更新日: 2026-10-02
 
-最新版は **2026-09-24 レビュー・配布版** です。QR復元Excelと、iPhone i-Reporter用帳票の保守改善に関する検討資料をまとめています。
+最新の実装・評価指示書は **2026-10-02 統合版** です。入力・操作・計算結果・出力を変えずに軽くするという最新条件に従い、セル位置・軽微な版変更への対応と、改善前後のiPhone評価をまとめました。
+
+- [統合資料の入口](20261002/KSD-R1-LLM-Guide/README.md)
+- [LLM向け統合実装指示書](20261002/KSD-R1-LLM-Guide/LLM_IMPLEMENTATION_GUIDE.md)
+- [改善前後の評価仕様](20261002/KSD-R1-LLM-Guide/EVALUATION_PROTOCOL.md)
+- [LLMへの依頼文](20261002/KSD-R1-LLM-Guide/LLM_TASK_PROMPT.txt)
+- [統合資料 ZIP](20261002/KSD-R1_LLM_Guide_20261002.zip)
+
+統合版は文書と未記入の試験テンプレートです。候補Excelの変更・Designer取り込み・iPhone受入・本番反映は未実施です。実装時には最新の完全な本番Excelと帳票定義を比較基準にします。
+
+以下の **2026-09-24 レビュー・配布版** は、QR復元Excelと当時の保守改善資料を保管する旧版です。以前の提案と新しい制約が矛盾する場合は、上の統合版を優先してください。
 
 - [Excel・資料・復元ツール一式 ZIP](20260924/KSD-R1_review_20260924.zip)
 - [テキストbundle（Excel復元payloadを含む）](20260924/bundle_260924_KSD-R1.txt)

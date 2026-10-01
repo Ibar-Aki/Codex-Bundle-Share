@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "status": "NOT_RUN",
+  "recorded_at_jst": null,
+  "baseline": {
+    "excel_path": null,
+    "excel_sha256": null,
+    "complete_production_copy_verified": false,
+    "definition_id": null,
+    "definition_revision": null,
+    "definition_export_path": null,
+    "definition_export_sha256": null
+  },
+  "candidate": {
+    "excel_path": null,
+    "excel_sha256": null,
+    "definition_id": null,
+    "definition_revision": null,
+    "definition_export_path": null,
+    "definition_export_sha256": null
+  },
+  "master": {
+    "source_path": null,
+    "source_sha256": null,
+    "typed_data_sha256": null,
+    "row_count": null,
+    "duplicate_key_policy": null,
+    "live_search_ranges": [],
+    "generated_table_sha256": null,
+    "generator_version": null
+  },
+  "settings": {
+    "cluster_export_sha256": null,
+    "calculation_type_and_precision_evidence": null,
+    "network_copy_csv_export_settings_sha256": null,
+    "existing_cluster_index_map_ref": null
+  },
+  "environment": {
+    "device_model": null,
+    "ios_version": null,
+    "ireporter_version": null,
+    "designer_version": null,
+    "excel_version": null,
+    "index_supported_on_all_target_devices": null,
+    "measurement_environment_ref": null
+  },
+  "cases": {
+    "case_set_version": null,
+    "case_set_sha256": null,
+    "baseline_expected_values_sha256": null
+  },
+  "binding_map_sha256": null,
+  "change_plan_sha256": null,
+  "implementation_tool_version": null,
+  "allowed_metadata_differences": [],
+  "rollback": {
+    "baseline_excel_sha256": null,
+    "definition_export_sha256": null,
+    "old_revision": null,
+    "candidate_created_drafts_handling": null,
+    "rehearsal_evidence_ref": null
+  },
+  "unresolved_information": []
+}

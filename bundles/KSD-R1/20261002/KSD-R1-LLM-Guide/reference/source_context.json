@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "verified_on": "2026-10-02",
+  "reference_workbook_sha256": "6afb0ea4fe142210f3f62e29f1718fa9408c95eb9d99e9a61a05b56ec4d50e20",
+  "sheets": 14,
+  "formulas": 936,
+  "reference_formulas_source": "Archived 20260924/KSD-R1/reference/formulas.json; decoded native Excel formulas",
+  "reference_workbook_location": "Prior shared package bundles/KSD-R1/20260924/KSD-R1/workbook/KSD-R1_restored.xlsx",
+  "reference_only": true,
+  "production_baseline_available_in_this_package": false,
+  "known_recovery_omissions": [
+    "ExcelOutputSetting",
+    "DB rows above archive row limit",
+    "Non-archived shapes/comments/print settings"
+  ],
+  "omissions_are_not_production_findings": true,
+  "historical_documents": [
+    {
+      "document": "20260924/KSD-R1/docs/実装計画書.md",
+      "retained": "Behavior contract, provenance, conditional helpers",
+      "superseded": "Fixed-address-only application and narrow optimization scope"
+    },
+    {
+      "document": "20260924/KSD-R1/docs/回帰試験仕様.md",
+      "retained": "Typed comparisons, real input paths, offline/resume/export checks",
+      "superseded": "Fixed 8/21 target counts and five-repeat performance smoke"
+    },
+    {
+      "document": "KSD-R1-iReporter-review/reports/徹底レビュー.md",
+      "retained": "Static structure and test hypotheses",
+      "superseded": "Business-rule repairs inferred from incomplete recovery"
+    },
+    {
+      "document": "KSD-R1-iReporter-review/reports/事前計算を使った改善案.md",
+      "retained": "Fixed raw-value table hypothesis",
+      "superseded": "Coefficient reassociation, custom-master/UI changes"
+    }
+  ],
+  "historical_arithmetic_experiment": {
+    "source": "KSD-R1-implementation-plan/source/precomputation_assessment.json",
+    "source_sha256": "6afb0ea4fe142210f3f62e29f1718fa9408c95eb9d99e9a61a05b56ec4d50e20",
+    "checked_master_rows": 497,
+    "scope": "Python Decimal/binary64 only, complete numeric inputs; not native Excel or iReporter equivalence",
+    "integer_cases": 26838,
+    "integer_float_value_differences": 0,
+    "decimal_cases": 26838,
+    "decimal_float_value_differences": 13686,
+    "decimal_float_judgment_differences": 3270,
+    "max_absolute_float_difference": 1.1368683772161603e-13,
+    "conclusion": "No production defect inferred. Reassociation is excluded under exact output preservation."
+  },
+  "official_sources": [
+    {
+      "title": "EXCEL関数機能",
+      "url": "https://manuals.i-reporter.jp/create-a-form/prepare-the-formexcelfile/excelfunctions",
+      "checked_on": "2026-10-02",
+      "index_minimum_designer_ios": "8.2.26090",
+      "caution": "Recheck live supported versions before implementation"
+    },
+    {
+      "title": "計算式クラスター",
+      "url": "https://manuals.i-reporter.jp/clustertype_settingprocedure/clustertype_settingprocedure/calculate",
+      "checked_on": "2026-10-02"
+    },
+    {
+      "title": "Excel再取り込み",
+      "url": "https://manuals.i-reporter.jp/create-a-form/setup-a-form/modifyingexcelform_output_reuptake",
+      "checked_on": "2026-10-02"
+    }
+  ],
+  "candidate_excel_created": false,
+  "designer_acceptance": "NOT_RUN",
+  "iphone_acceptance": "NOT_RUN",
+  "phone_performance": "NOT_RUN"
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "recorded_at_jst": null,
+  "baseline_excel_sha256": null,
+  "candidate_excel_sha256": null,
+  "workbook_modified": false,
+  "production_deployed": false,
+  "gates": [
+    {
+      "gate_id": "G01_SOURCE",
+      "status": "NOT_RUN",
+      "required": true,
+      "executed_cases": 0,
+      "evidence_refs": [],
+      "command_or_procedure": null,
+      "limitations": [],
+      "reason": "Template only; candidate implementation and acceptance not executed"
+    },
+    {
+      "gate_id": "G02_BINDING",
+      "status": "NOT_RUN",
+      "required": true,
+      "executed_cases": 0,
+      "evidence_refs": [],
+      "command_or_procedure": null,
+      "limitations": [],
+      "reason": "Template only; candidate implementation and acceptance not executed"
+    },
+    {
+      "gate_id": "G03_PATCH",
+      "status": "NOT_RUN",
+      "required": true,
+      "executed_cases": 0,
+      "evidence_refs": [],
+      "command_or_procedure": null,
+      "limitations": [],
+      "reason": "Template only; candidate implementation and acceptance not executed"
+    },
+    {
+      "gate_id": "G04_EXCEL",
+      "status": "NOT_RUN",
+      "required": true,
+      "executed_cases": 0,
+      "evidence_refs": [],
+      "command_or_procedure": null,
+      "limitations": [],
+      "reason": "Template only; candidate implementation and acceptance not executed"
+    },
+    {
+      "gate_id": "G05_DESIGNER",
+      "status": "NOT_RUN",
+      "required": true,
+      "executed_cases": 0,
+      "evidence_refs": [],
+      "command_or_procedure": null,
+      "limitations": [],
+      "reason": "Template only; candidate implementation and acceptance not executed"
+    },
+    {
+      "gate_id": "G06_IPHONE",
+      "status": "NOT_RUN",
+      "required": true,
+      "executed_cases": 0,
+      "evidence_refs": [],
+      "command_or_procedure": null,
+      "limitations": [],
+      "reason": "Template only; candidate implementation and acceptance not executed"
+    },
+    {
+      "gate_id": "G07_OUTPUT",
+      "status": "NOT_RUN",
+      "required": true,
+      "executed_cases": 0,
+      "evidence_refs": [],
+      "command_or_procedure": null,
+      "limitations": [],
+      "reason": "Template only; candidate implementation and acceptance not executed"
+    },
+    {
+      "gate_id": "G08_PERFORMANCE",
+      "status": "NOT_RUN",
+      "required": true,
+      "executed_cases": 0,
+      "evidence_refs": [],
+      "command_or_procedure": null,
+      "limitations": [],
+      "reason": "Template only; candidate implementation and acceptance not executed"
+    },
+    {
+      "gate_id": "G09_ROLLBACK",
+      "status": "NOT_RUN",
+      "required": true,
+      "executed_cases": 0,
+      "evidence_refs": [],
+      "command_or_procedure": null,
+      "limitations": [],
+      "reason": "Template only; candidate implementation and acceptance not executed"
+    }
+  ],
+  "performance_pre_registration": {
+    "status": "PROPOSED_NOT_LOCKED",
+    "locked_before_measurement": false,
+    "primary_scenario_id": null,
+    "min_input_pairs_per_scenario": 30,
+    "min_sessions": 3,
+    "min_open_pairs_per_condition": 10,
+    "min_median_paired_improvement_ratio": 0.2,
+    "min_median_paired_saved_seconds": 0.1,
+    "primary_median_saved_positive_in_every_session": true,
+    "median_regression_guard": {
+      "relative_above": 0.05,
+      "absolute_seconds_above": 0.1,
+      "combine": "AND"
+    },
+    "p95_regression_signal": {
+      "relative_above": 0.1,
+      "absolute_seconds_above": 0.1,
+      "combine": "AND",
+      "action": "Additional measurement; reject if reproduced"
+    },
+    "measurement_uncertainty_seconds": null,
+    "exclusion_rules": [],
+    "percentile_method": null,
+    "change_reasons_recorded_before_measurement": []
+  },
+  "performance_summary": {
+    "paired_samples": 0,
+    "summary_ref": null,
+    "raw_measurements_ref": null,
+    "result": "NOT_RUN"
+  },
+  "adoption_decision": "NOT_EVALUATED",
+  "decision_reason": "No candidate or phone comparison has been executed",
+  "unrun_or_inconclusive_items": [
+    "G01_SOURCE",
+    "G02_BINDING",
+    "G03_PATCH",
+    "G04_EXCEL",
+    "G05_DESIGNER",
+    "G06_IPHONE",
+    "G07_OUTPUT",
+    "G08_PERFORMANCE",
+    "G09_ROLLBACK"
+  ],
+  "rollback_evidence_ref": null
+}

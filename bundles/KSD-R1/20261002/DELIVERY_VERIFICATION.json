@@ -1,0 +1,63 @@
+{
+  "created_at_jst": "2026-10-02T00:39:31+09:00",
+  "scope": "Documentation and delivery integrity only; no workbook changes or candidate engine acceptance",
+  "package": "KSD-R1-LLM-Guide",
+  "reference_workbook_sha256": "6afb0ea4fe142210f3f62e29f1718fa9408c95eb9d99e9a61a05b56ec4d50e20",
+  "original_workbook_hash_unchanged": true,
+  "package_checks": [
+    {
+      "test": "Package validation",
+      "status": "PASS",
+      "output": {
+        "status": "PASS",
+        "scope": "Guide package integrity only; candidate acceptance NOT_RUN",
+        "manifest_files": 18,
+        "local_links": 22,
+        "reference_formulas": 936,
+        "output_roles": 10,
+        "live_acceptance_gates": "NOT_RUN"
+      }
+    },
+    {
+      "test": "tamper_document",
+      "status": "PASS_REJECTED_INVALID_PACKAGE",
+      "error": "ValueError: Size mismatch: LLM_TASK_PROMPT.txt"
+    },
+    {
+      "test": "false_acceptance",
+      "status": "PASS_REJECTED_INVALID_PACKAGE",
+      "error": "ValueError: Template must not claim completed acceptance"
+    },
+    {
+      "test": "key_order_drift",
+      "status": "PASS_REJECTED_INVALID_PACKAGE",
+      "error": "ValueError: Key order does not match archived formula: OUT_MAIN_LEFT_MIN"
+    }
+  ],
+  "bundle_restore": {
+    "status": "PASS",
+    "files": 19,
+    "restored_file_hashes_match": true,
+    "restored_guide_check": {
+      "status": "PASS",
+      "scope": "Guide package integrity only; candidate acceptance NOT_RUN",
+      "manifest_files": 18,
+      "local_links": 22,
+      "reference_formulas": 936,
+      "output_roles": 10,
+      "live_acceptance_gates": "NOT_RUN"
+    }
+  },
+  "zip_check": {
+    "status": "PASS",
+    "files": 20,
+    "all_content_hashes_match": true,
+    "sha256": "2c868cd22dacea437aba86d55643d87c0b7c7ec99f0c99d1e76c9dfbb54791c4",
+    "size_bytes": 132316
+  },
+  "bundle_sha256": "5247d8c28d18dc9da5c50047f850d32da7f5922c086ee844e934da995696cd3c",
+  "workbook_modified": false,
+  "candidate_acceptance": "NOT_RUN",
+  "phone_performance": "NOT_RUN",
+  "production_deployed": false
+}

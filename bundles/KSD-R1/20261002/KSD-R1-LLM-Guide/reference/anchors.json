@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "reference_workbook_sha256": "6afb0ea4fe142210f3f62e29f1718fa9408c95eb9d99e9a61a05b56ec4d50e20",
+  "purpose": "Archived structural hints only; not live bindings or an executable patch",
+  "output_roles": [
+    {
+      "role_id": "OUT_MAIN_LEFT_MIN",
+      "reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "K45",
+        "formula": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,IF(基準芯出し_入力①!B51=\"左袖\",17,16),FALSE),\"\")"
+      },
+      "key_role": "KEY_MAIN",
+      "reference_return_column_indices": [
+        16,
+        17
+      ],
+      "structural_hint": "IF side switch; outer IFERROR",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "OUT_MAIN_RIGHT_MIN",
+      "reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "Q45",
+        "formula": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,IF(基準芯出し_入力①!B51=\"左袖\",16,17),FALSE),\"\")"
+      },
+      "key_role": "KEY_MAIN",
+      "reference_return_column_indices": [
+        16,
+        17
+      ],
+      "structural_hint": "Reversed IF side switch; outer IFERROR",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "OUT_MAIN_DEPTH_MIN",
+      "reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "W45",
+        "formula": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,18,FALSE),\"\")"
+      },
+      "key_role": "KEY_MAIN",
+      "reference_return_column_indices": [
+        18
+      ],
+      "structural_hint": "Raw lookup; outer IFERROR",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "OUT_MAIN_HALF_WIDTH",
+      "reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "C57",
+        "formula": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,11,FALSE)/2,\"\")"
+      },
+      "key_role": "KEY_MAIN",
+      "reference_return_column_indices": [
+        11
+      ],
+      "structural_hint": "Divide raw lookup by 2 inside IFERROR",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "OUT_MAIN_OFFSET_LEFT",
+      "reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "D57",
+        "formula": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,19,FALSE)*IF(K42=\"W1\",1,-1),\"\")"
+      },
+      "key_role": "KEY_MAIN",
+      "reference_return_column_indices": [
+        19
+      ],
+      "structural_hint": "Multiply by IF(K42=\"W1\",1,-1) inside IFERROR",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "OUT_MAIN_OFFSET_RIGHT",
+      "reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "E57",
+        "formula": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,19,FALSE)*IF(Q42=\"W1\",1,-1),\"\")"
+      },
+      "key_role": "KEY_MAIN",
+      "reference_return_column_indices": [
+        19
+      ],
+      "structural_hint": "Multiply by IF(Q42=\"W1\",1,-1) inside IFERROR",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "OUT_TOP_DEPTH",
+      "reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "W49",
+        "formula": "=IFERROR(基準芯出し_出力③!X48-VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,12,FALSE)-VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:U1693,20,FALSE)-基準芯出し_出力①!U8-15,\"\")"
+      },
+      "key_role": "KEY_MAIN",
+      "reference_return_column_indices": [
+        12,
+        20
+      ],
+      "structural_hint": "X48 - raw12 - raw20 - U8 - 15; left-associated; IFERROR",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "OUT_PIT_DEPTH",
+      "reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "W62",
+        "formula": "=IFERROR(基準芯出し_出力③!X61-VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,12,FALSE)-VLOOKUP(CONCATENATE(基準芯出し_入力①!B19,基準芯出し_入力①!P19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!Q46,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:U1693,20,FALSE)-基準芯出し_出力①!U8-15,\"\")"
+      },
+      "key_role": "KEY_MAIN",
+      "reference_return_column_indices": [
+        12,
+        20
+      ],
+      "structural_hint": "X61 - raw12 - raw20 - U8 - 15; left-associated; IFERROR",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "OUT_ALT_OFFSET_L",
+      "reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "L61",
+        "formula": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!P19,基準芯出し_入力①!B19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!P43,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,19,FALSE)*IF(K42=\"W1\",1,-1),\"\")"
+      },
+      "key_role": "KEY_ALT",
+      "reference_return_column_indices": [
+        19
+      ],
+      "structural_hint": "Alternate key; same K42 sign as archived formula; do not fix",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "OUT_ALT_OFFSET_R",
+      "reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "R61",
+        "formula": "=IFERROR(VLOOKUP(CONCATENATE(基準芯出し_入力①!P19,基準芯出し_入力①!B19,基準芯出し_入力①!B27,基準芯出し_入力①!P27,基準芯出し_入力①!B35,基準芯出し_入力①!P35,基準芯出し_入力①!B43,基準芯出し_入力①!P43,基準芯出し_入力①!P51),基準芯出し_出力③_DB!B4:T1693,19,FALSE)*IF(K42=\"W1\",1,-1),\"\")"
+      },
+      "key_role": "KEY_ALT",
+      "reference_return_column_indices": [
+        19
+      ],
+      "structural_hint": "Identical formula; distinguish by live cluster/label/dependency",
+      "live_binding_status": "UNRESOLVED"
+    }
+  ],
+  "key_roles": [
+    {
+      "role_id": "KEY_MAIN",
+      "reference_sheet": "基準芯出し_入力①",
+      "ordered_reference_cells": [
+        "B19",
+        "P19",
+        "B27",
+        "P27",
+        "B35",
+        "P35",
+        "B43",
+        "Q46",
+        "P51"
+      ],
+      "operator": "CONCATENATE",
+      "normalization_allowed": false,
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "KEY_ALT",
+      "reference_sheet": "基準芯出し_入力①",
+      "ordered_reference_cells": [
+        "P19",
+        "B19",
+        "B27",
+        "P27",
+        "B35",
+        "P35",
+        "B43",
+        "P43",
+        "P51"
+      ],
+      "operator": "CONCATENATE",
+      "normalization_allowed": false,
+      "live_binding_status": "UNRESOLVED"
+    }
+  ],
+  "master_role": {
+    "role_id": "MASTER_OUTPUT3",
+    "reference_sheet": "基準芯出し_出力③_DB",
+    "reference_ranges": [
+      "B4:T1693",
+      "B4:U1693"
+    ],
+    "key_reference_column": "B",
+    "match_mode": "FALSE",
+    "duplicate_rule": "first matching row in original order",
+    "live_binding_status": "UNRESOLVED"
+  },
+  "master_value_roles": [
+    {
+      "role_id": "MASTER_HALF_WIDTH_RAW",
+      "reference_return_column_index": 11,
+      "reference_sheet_column": "L",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "MASTER_DEPTH_DEDUCTION_RAW",
+      "reference_return_column_index": 12,
+      "reference_sheet_column": "M",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "MASTER_MIN_SIDE_A_RAW",
+      "reference_return_column_index": 16,
+      "reference_sheet_column": "Q",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "MASTER_MIN_SIDE_B_RAW",
+      "reference_return_column_index": 17,
+      "reference_sheet_column": "R",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "MASTER_DEPTH_MIN_RAW",
+      "reference_return_column_index": 18,
+      "reference_sheet_column": "S",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "MASTER_OFFSET_RAW",
+      "reference_return_column_index": 19,
+      "reference_sheet_column": "T",
+      "live_binding_status": "UNRESOLVED"
+    },
+    {
+      "role_id": "MASTER_TRUNK_DEDUCTION_RAW",
+      "reference_return_column_index": 20,
+      "reference_sheet_column": "U",
+      "live_binding_status": "UNRESOLVED"
+    }
+  ],
+  "old_main_downstream_hints": [
+    "K49",
+    "Q49",
+    "K53",
+    "Q53",
+    "W53",
+    "K58",
+    "Q58",
+    "W58",
+    "K62",
+    "Q62",
+    "K66",
+    "Q66",
+    "W66"
+  ],
+  "warning": "Regenerate all live dependencies, including alternate-key and definition settings. Do not fix counts or positions."
+}

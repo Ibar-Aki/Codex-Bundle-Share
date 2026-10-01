@@ -1,0 +1,13 @@
+case_id,case_group,layer,objective,initial_state_ref,input_sequence_ref,expected_a_ref,affected_roles_ref,status,evidence_ref,reason
+F01_EXPAND_INTO_LIVE_CASES,F01,UNRESOLVED,全本番マスター行・返却列の一致,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する
+F02_EXPAND_INTO_LIVE_CASES,F02,UNRESOLVED,到達可能な全仕様×左右・分岐,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する
+F03_EXPAND_INTO_LIVE_CASES,F03,UNRESOLVED,キー要素の入力・修正・消去,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する
+F04_EXPAND_INTO_LIVE_CASES,F04,UNRESOLVED,未登録・重複・空白を含むキー,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する
+F05_EXPAND_INTO_LIVE_CASES,F05,UNRESOLVED,空欄・空文字・0・数値文字列・エラー,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する
+F06_EXPAND_INTO_LIVE_CASES,F06,UNRESOLVED,正負・0・小数・入力端点,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する
+F07_EXPAND_INTO_LIVE_CASES,F07,UNRESOLVED,各判定の境界・直前・直後,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する
+F08_EXPAND_INTO_LIVE_CASES,F08,UNRESOLVED,測定行切替と共通調整値,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する
+F09_EXPAND_INTO_LIVE_CASES,F09,UNRESOLVED,主キーと別キーの独立性,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する
+F10_EXPAND_INTO_LIVE_CASES,F10,UNRESOLVED,下書き・再開・コピー・連続切替,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する
+F11_EXPAND_INTO_LIVE_CASES,F11,UNRESOLVED,オフライン保存から同期,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する
+F12_EXPAND_INTO_LIVE_CASES,F12,UNRESOLVED,画面・最終帳票・CSV・連携,,,,,NOT_RUN,,ケース群のひな形。実入力・型・操作fixtureを調査して展開する

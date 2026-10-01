@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0",
+  "status": "UNRESOLVED",
+  "baseline_excel_sha256": null,
+  "live_definition_export_sha256": null,
+  "reference_anchors": "../reference/anchors.json",
+  "roles": [
+    {
+      "role_id": "OUT_MAIN_LEFT_MIN",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "K45"
+      },
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "OUT_MAIN_RIGHT_MIN",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "Q45"
+      },
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "OUT_MAIN_DEPTH_MIN",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "W45"
+      },
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "OUT_MAIN_HALF_WIDTH",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "C57"
+      },
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "OUT_MAIN_OFFSET_LEFT",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "D57"
+      },
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "OUT_MAIN_OFFSET_RIGHT",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "E57"
+      },
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "OUT_TOP_DEPTH",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "W49"
+      },
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "OUT_PIT_DEPTH",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "W62"
+      },
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "OUT_ALT_OFFSET_L",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "L61"
+      },
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "OUT_ALT_OFFSET_R",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": {
+        "sheet": "基準芯出し_出力③",
+        "cell": "R61"
+      },
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "KEY_MAIN",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": null,
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "KEY_ALT",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": null,
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "MASTER_OUTPUT3",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": null,
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "MASTER_HALF_WIDTH_RAW",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": null,
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "MASTER_DEPTH_DEDUCTION_RAW",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": null,
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "MASTER_MIN_SIDE_A_RAW",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": null,
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "MASTER_MIN_SIDE_B_RAW",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": null,
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "MASTER_DEPTH_MIN_RAW",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": null,
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "MASTER_OFFSET_RAW",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": null,
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    },
+    {
+      "role_id": "MASTER_TRUNK_DEDUCTION_RAW",
+      "status": "UNRESOLVED",
+      "candidate_count": null,
+      "archived_reference": null,
+      "current": {
+        "sheet": null,
+        "cell_or_range": null,
+        "cluster_index": null,
+        "formula": null,
+        "data_type": null,
+        "settings_ref": null
+      },
+      "evidence": [],
+      "upstream_role_ids": [],
+      "downstream_role_ids": [],
+      "unresolved_reason": null
+    }
+  ],
+  "additional_required_roles": "Add live key components, actual inputs, side/sign/adjustment references, all dependents and helpers before application.",
+  "live_dependency_graph_ref": null,
+  "ambiguous_candidates": []
+}

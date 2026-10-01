@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "status": "NOT_RUN",
+  "candidate_id": null,
+  "selected_strategy": null,
+  "baseline_excel_sha256": null,
+  "bindings_sha256": null,
+  "preconditions_verified": false,
+  "write_target_copy": null,
+  "source_overwrite_allowed": false,
+  "production_deployment_authorized_target": null,
+  "allowlist": {
+    "formula_role_ids": [],
+    "new_internal_roles": [],
+    "settings_changes": [],
+    "generated_table_ranges": []
+  },
+  "formula_changes": [],
+  "helper_settings": [],
+  "generated_tables": [],
+  "unresolved_tokens": [],
+  "dry_run_diff_ref": null,
+  "dry_run_verified": false,
+  "post_save_whole_workbook_diff_ref": null,
+  "candidate_excel_sha256": null,
+  "idempotency": {
+    "known_applied_sha256": null,
+    "same_content_action": "NO_CHANGE",
+    "unknown_or_mixed_content_action": "STOP"
+  },
+  "evaluation_summary_ref": null,
+  "rollback_ref": null
+}
